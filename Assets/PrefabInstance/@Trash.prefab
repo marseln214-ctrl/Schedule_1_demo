@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1781093358344521
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4959341044016120}
+  - component: {fileID: 114852858533408313}
+  - component: {fileID: 114957987395493589}
+  m_Layer: 0
+  m_Name: '@Trash'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4959341044016120
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781093358344521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114852858533408313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781093358344521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f4bd5525843802f10475eb4d78bbb6e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _componentIndexCache: 0
+  _networkObjectCache: {fileID: 114957987395493589}
+  TrashPrefabs:
+  - {fileID: 114347280854628781, guid: 5c54ce4643d6eb044af89130c7406527, type: 2}
+  TrashBagPrefab: {fileID: 0}
+  GenerateableTrashItems: []
+  TrashForceMultiplier: 0.3
+--- !u!114 &114957987395493589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781093358344521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1201363339, guid: 1f191796bb5acf747b48ef6cf55d4ccf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  <IsNested>k__BackingField: 0
+  <ComponentIndex>k__BackingField: 0
+  <PredictedSpawn>k__BackingField: {fileID: 0}
+  _networkBehaviours:
+  - {fileID: 114852858533408313}
+  <ParentNetworkObject>k__BackingField: {fileID: 0}
+  <ChildNetworkObjects>k__BackingField: []
+  SerializedTransformProperties:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    LocalScale: {x: 1, y: 1, z: 1}
+  _isNetworked: 1
+  _isGlobal: 0
+  _initializeOrder: 0
+  _defaultDespawnType: 0
+  NetworkObserver: {fileID: 0}
+  <PrefabId>k__BackingField: 41
+  <SpawnableCollectionId>k__BackingField: 0
+  _scenePathHash: 0
+  <SceneId>k__BackingField: 0
+  <AssetPathHash>k__BackingField: 4473542700968848998

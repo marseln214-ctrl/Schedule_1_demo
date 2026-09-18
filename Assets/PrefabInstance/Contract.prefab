@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1615887549825192
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4447914532563045}
+  - component: {fileID: 114966197387635970}
+  m_Layer: 0
+  m_Name: Contract
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4447914532563045
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615887549825192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114966197387635970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615887549825192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e616311e05e99cfcc392bda677a283, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  title:
+  Subtitle:
+  Description:
+  StaticGUID:
+  TrackOnBegin: 0
+  ExpiryVisibility: 1
+  AutoCompleteOnAllEntriesComplete: 0
+  PlayQuestCompleteSound: 0
+  CompletionXP: 0
+  AutoStartFirstEntry: 1
+  Entries: []
+  IconPrefab: {fileID: 224704550830224327, guid: 730e30e48ded1464881a6f5085d011b7, type: 2}
+  PoIPrefab: {fileID: 1821364020910432, guid: 4c73e13d7d5faba47b1417232cd6c665, type: 2}
+  onQuestBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  onQuestEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  onActiveState:
+    m_PersistentCalls:
+      m_Calls: []
+  onTrackChange:
+    m_PersistentCalls:
+      m_Calls: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  ShouldSendExpiryReminder: 1
+  ShouldSendExpiredNotification: 1
+  ProductList:
+    entries: []
+  DeliveryLocation: {fileID: 0}
+  DeliveryWindow:
+    IsEnabled: 0
+    WindowStartTime: 0
+    WindowEndTime: 1800

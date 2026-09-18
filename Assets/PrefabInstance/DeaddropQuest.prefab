@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1329008323267431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4813435600115597}
+  - component: {fileID: 114326930588013826}
+  m_Layer: 0
+  m_Name: DeaddropQuest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4813435600115597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329008323267431}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4006928423435341}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114326930588013826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329008323267431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47caccf8a08a42875110809f39094f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Collect Dead Drop
+  Subtitle: 
+  Description: Collect the dead drop.
+  StaticGUID: 
+  TrackOnBegin: 1
+  ExpiryVisibility: 2
+  AutoCompleteOnAllEntriesComplete: 0
+  PlayQuestCompleteSound: 0
+  CompletionXP: 0
+  AutoStartFirstEntry: 1
+  Entries:
+  - {fileID: 114282894438570278}
+  IconPrefab: {fileID: 224410094758151649, guid: c17c2766fc9e65d4ca34376c9257f4ae,
+    type: 3}
+  PoIPrefab: {fileID: 1932906703475404, guid: 7777624e933d601409f2eb41f3cd49f5, type: 3}
+  onQuestBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  onQuestEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  onActiveState:
+    m_PersistentCalls:
+      m_Calls: []
+  onTrackChange:
+    m_PersistentCalls:
+      m_Calls: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  ShouldSendExpiryReminder: 0
+  ShouldSendExpiredNotification: 0
+--- !u!1 &1482622097614485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4006928423435341}
+  - component: {fileID: 114282894438570278}
+  m_Layer: 0
+  m_Name: <Location> (Inactive)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4006928423435341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482622097614485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4813435600115597}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114282894438570278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482622097614485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f947a0a1517dc3d0f642bf1118757710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EntryTitle: <Location>
+  state: 0
+  AutoComplete: 0
+  AutoCompleteConditions:
+    EvaluationType: 0
+    ConditionList: []
+    QuestConditionList: []
+  CompleteParentQuest: 0
+  EntryAddedIn: 0.2.3
+  AutoCreatePoI: 1
+  PoILocation: {fileID: 4006928423435341}
+  AutoUpdatePoILocation: 0
+  PoI: {fileID: 0}
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onInitialComplete:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1715831644865922
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4356816780108284}
+  - component: {fileID: 114836975893317700}
+  m_Layer: 0
+  m_Name: CustomerModule_Bro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4356816780108284
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715831644865922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114836975893317700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715831644865922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f2a8198eba548f8c67697e84f98a43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ModuleType: 3
+  Entries:
+  - Key: customer_recommended
+    Chains:
+    - Lines:
+      - Hey, my friend said you were selling some good stuff. Could I get <PRODUCT>? I'll pay <PRICE> for it.
+    - Lines:
+      - Hey, my friend recommended you. Can I get <PRODUCT>? I'll pay <PRICE>.
+    - Lines:
+      - Hi. My friend said you were selling. Could I get <PRODUCT>? I can pay <PRICE>
+  - Key: customer_sampled
+    Chains:
+    - Lines:
+      - Hey, that sample was some good stuff. Could I get <PRODUCT>? I'll pay <PRICE> for it.
+    - Lines:
+      - Hey, you gave me a sample earlier. Very nice stuff. Can I get <PRODUCT>? I'll pay <PRICE>.
+    - Lines:
+      - Hello, I liked that sample you gave me. Can I get <PRODUCT>? I can pay <PRICE>
+  - Key: awaiting_deal
+    Chains:
+    - Lines:
+      - Ready to roll?
+    - Lines:
+      - You got the stuff?
+    - Lines:
+      - Lets get this party started
+    - Lines:
+      - Ready when you are homie
+  - Key: contract_accepted
+    Chains:
+    - Lines:
+      - Sweet as homie, I'll meet you <LOCATION> between <WINDOW_START> and <WINDOW_END>.
+    - Lines:
+      - Hell yeah my friend, I'll meet you <LOCATION> between <WINDOW_START> and <WINDOW_END>.
+    - Lines:
+      - Sick as, I'll meet you <LOCATION> between <WINDOW_START> and <WINDOW_END>.
+    - Lines:
+      - Cheers bro, I'll meet you <LOCATION> between <WINDOW_START> and <WINDOW_END>.
+  - Key: contract_rejected
+    Chains:
+    - Lines:
+      - Oh aight...
+    - Lines:
+      - Ok
+    - Lines:
+      - Damn bro
+    - Lines:
+      - Aight bro maybe next time
+  - Key: sample_offer_accepted
+    Chains:
+    - Lines:
+      - Sure thing
+    - Lines:
+      - Why not
+    - Lines:
+      - That sounds good
+    - Lines:
+      - Oh hell yeah
+    - Lines:
+      - Sounds good homie
+  - Key: sample_offer_rejected
+    Chains:
+    - Lines:
+      - Yeah, not what I'm after homie
+    - Lines:
+      - Nah I'm good dog
+    - Lines:
+      - Nah...
+    - Lines:
+      - Huh?
+    - Lines:
+      - Not interested sorry bro
+  - Key: sample_offer_rejected_police
+    Chains:
+    - Lines:
+      - Bro what?! I'm calling the cops
+    - Lines:
+      - Who the hell are you?
+    - Lines:
+      - You insane?
+    - Lines:
+      - No way dog! I'm calling the cops
+    - Lines:
+      - Huh?! I'm getting the cops on you
+  - Key: sample_sufficient
+    Chains:
+    - Lines:
+      - Oh shit that's good stuff homie, I'll text you
+    - Lines:
+      - 'Oh very nice! You''ll be hearing from me '
+    - Lines:
+      - Mmm not bad at all... I'll message you
+    - Lines:
+      - Damn dog that's pretty good, I'll message you
+    - Lines:
+      - Damn, that's some good shit. You'll hear from me soon
+  - Key: sample_insufficient
+    Chains:
+    - Lines:
+      - Nah, not for me dog
+    - Lines:
+      - Eh, I don't think so loco
+    - Lines:
+      - Man, I'm aight...
+    - Lines:
+      - I don't think so...
+    - Lines:
+      - Sorry homie, not my taste
+    - Lines:
+      - No thanks brody
+  - Key: contract_request
+    Chains:
+    - Lines:
+      - Hey dog, I need <PRODUCT>. I'll pay <PRICE>. Deal?
+    - Lines:
+      - Ayo dawg, if you got <PRODUCT> I'll pay <PRICE> for it. Deal?
+    - Lines:
+      - Yo homie, can I get <PRODUCT>? I'll pay <PRICE>
+    - Lines:
+      - Whats up bro, I'm after <PRODUCT>. I can pay <PRICE> for it.
+    - Lines:
+      - Ay bro you got <PRODUCT>? I'll pay <PRICE> for it
+  - Key: customer_rejected_deal
+    Chains:
+    - Lines:
+      - Nah man this Isn't what I asked for...
+    - Lines:
+      - Nevermind man, this isnt what I wanted
+    - Lines:
+      - Come on dog, what the hell is this?
+    - Lines:
+      - Bro what? The deal is off
+    - Lines:
+      - Dude... this ain't what I asked for
+  - Key: deal_completed
+    Chains:
+    - Lines:
+      - Thanks my man
+    - Lines:
+      - Cheers dog
+    - Lines:
+      - Hell yeah brotha
+    - Lines:
+      - Sweet as my man
+    - Lines:
+      - Much appreciated homie
+  - Key: offer_expired
+    Chains:
+    - Lines:
+      - Nvm dog
+    - Lines:
+      - Nah nevermind man
+    - Lines:
+      - Don't worry about it
+    - Lines:
+      - nvm
+  - Key: sample_consume_wait
+    Chains:
+    - Lines:
+      - One moment bro...
+    - Lines:
+      - Give me a sec...
+    - Lines:
+      - Let me try...
+    - Lines:
+      - Let's see...
+    - Lines:
+      - Hmm...
+  - Key: late_deal
+    Chains:
+    - Lines:
+      - About time...
+    - Lines:
+      - Finally...
+    - Lines:
+      - You finally ready?
+    - Lines:
+      - Come on, let's do do this
+  - Key: counteroffer_accepted
+    Chains:
+    - Lines:
+      - Aight. What time?
+    - Lines:
+      - Ok bro. What time?
+    - Lines:
+      - I guess that's fine bro. When?
+    - Lines:
+      - Alright dude. What time?
+    - Lines:
+      - Aight homie. What time you wanna meet?
+  - Key: counteroffer_rejected
+    Chains:
+    - Lines:
+      - Nah bro. Nevermind
+    - Lines:
+      - No thanks dude. I'll just look elsewhere
+    - Lines:
+      - Nopeskies bro - nevermind
+    - Lines:
+      - You crazy bro? No thanks
+    - Lines:
+      - Not gonna happen brody. I'll get it somewhere else
+    - Lines:
+      - No way man
+  - Key: post_deal_recommend
+    Chains:
+    - Lines:
+      - Thanks bro. Hey my friend <NAME> might be interested in your stuff. You should go talk to them.
+    - Lines:
+      - Cheers dog. My friend <NAME> might like your stuff. Go check them out
+    - Lines:
+      - Thank you my dude. You should go talk to <NAME> - I think they'll like your stuff
+    - Lines:
+      - Much appreciated mulatto. Maybe go talk to <NAME>. I think they'd like your product
+    - Lines:
+      - Very nice bro. <NAME> might be interested. You should go talk to them.
+  - Key: request_product_initial
+    Chains:
+    - Lines:
+      - Hey bro! I really need some of your stuff right now... you got anything?
+    - Lines:
+      - Hey man! I'm really in need right now. Please tell me you've got something I can buy..?
+    - Lines:
+      - I haven't had my fix in too long, I really need something right now bro. You got anything I can buy??
+  - Key: request_product_after_follow
+    Chains:
+    - Lines:
+      - Ready yet??
+    - Lines:
+      - Ready bro??
+    - Lines:
+      - Please tell me you're ready...
+    - Lines:
+      - Come on man, I really need something
+  - Key: request_product_rejected
+    Chains:
+    - Lines:
+      - Noooo...
+    - Lines:
+      - Come on man...
+    - Lines:
+      - Aww man...
+    - Lines:
+      - Damn it bro
+    - Lines:
+      - Shit man...
+    - Lines:
+      - Shitskies...
+  - Key: offer_reject
+    Chains:
+    - Lines:
+      - No thanks bro
+    - Lines:
+      - I'm good thanks man
+    - Lines:
+      - Not right now broskies
+    - Lines:
+      - Nope man
+    - Lines:
+      - Not yet man
+    - Lines:
+      - No thanks mulatto

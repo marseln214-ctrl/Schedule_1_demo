@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1022979043986030
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4020688828823913}
+  - component: {fileID: 114314804161038960}
+  m_Layer: 0
+  m_Name: ReactionModule_Bro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4020688828823913
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022979043986030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114314804161038960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022979043986030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f2a8198eba548f8c67697e84f98a43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ModuleType: 2
+  Entries:
+  - Key: panic_start
+    Chains:
+    - Lines:
+      - Holy shit!
+    - Lines:
+      - Woah!
+    - Lines:
+      - Bro...
+    - Lines:
+      - Good lord!
+    - Lines:
+      - Woah man...
+    - Lines:
+      - Goddamn!
+    - Lines:
+      - Yikes!
+    - Lines:
+      - Holy hell!
+  - Key: hit_by_car
+    Chains:
+    - Lines:
+      - Shit!
+    - Lines:
+      - Woah!
+    - Lines:
+      - The hell?!
+    - Lines:
+      - Damn!
+    - Lines:
+      - Ouch!
+    - Lines:
+      - Goddamn!
+    - Lines:
+      - Are you blind??
+    - Lines:
+      - What's wrong with you?
+    - Lines:
+      - Ow!
+    - Lines:
+      - Holy hell!
+    - Lines:
+      - Bro...
+    - Lines:
+      - Come on bro...
+  - Key: hurt
+    Chains:
+    - Lines:
+      - Ow!
+    - Lines:
+      - Ouch!
+    - Lines:
+      - Shit!
+    - Lines:
+      - Holy hell!
+    - Lines:
+      - Oh shit!
+    - Lines:
+      - Owww...
+    - Lines:
+      - Come on man!
+    - Lines:
+      - Oof!
+    - Lines:
+      - Crap!
+    - Lines:
+      - Dude!
+  - Key: annoyed
+    Chains:
+    - Lines:
+      - Bro come on
+    - Lines:
+      - Stop it dude
+    - Lines:
+      - Quit it!
+    - Lines:
+      - Damn bro...
+    - Lines:
+      - Damn it!
+    - Lines:
+      - Huh?
+    - Lines:
+      - The hell?
+    - Lines:
+      - Woah dude
+    - Lines:
+      - Shitskies
+    - Lines:
+      - Come on dude!
+  - Key: noticed_pickpocket
+    Chains:
+    - Lines:
+      - Hey!
+    - Lines:
+      - Stop!
+    - Lines:
+      - Quit it!
+    - Lines:
+      - What the hell man?
+    - Lines:
+      - Get away dude!
+    - Lines:
+      - Huh?!
+    - Lines:
+      - The hell bro?
+    - Lines:
+      - What?!
+    - Lines:
+      - Come on dude!
+    - Lines:
+      - What's your problem?

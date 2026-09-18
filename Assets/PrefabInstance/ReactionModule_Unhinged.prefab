@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1210113383380666
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4567591923021503}
+  - component: {fileID: 114959358009156642}
+  m_Layer: 0
+  m_Name: ReactionModule_Unhinged
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4567591923021503
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210113383380666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114959358009156642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210113383380666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f2a8198eba548f8c67697e84f98a43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ModuleType: 2
+  Entries:
+  - Key: panic_start
+    Chains:
+    - Lines:
+      - Holy shit!
+    - Lines:
+      - Woah!
+    - Lines:
+      - Not again...
+    - Lines:
+      - Damn!
+    - Lines:
+      - '!!!'
+    - Lines:
+      - Goddamn!
+    - Lines:
+      - Yikes!
+    - Lines:
+      - Holy hell!
+  - Key: hit_by_car
+    Chains:
+    - Lines:
+      - Shit!
+    - Lines:
+      - Woah!
+    - Lines:
+      - The hell?!
+    - Lines:
+      - Damn!
+    - Lines:
+      - Ouch!
+    - Lines:
+      - Goddamn!
+    - Lines:
+      - Are you blind??
+    - Lines:
+      - What's wrong with you?
+    - Lines:
+      - Ow!
+    - Lines:
+      - Holy hell!
+  - Key: hurt
+    Chains:
+    - Lines:
+      - Ow!
+    - Lines:
+      - Ouch!
+    - Lines:
+      - Shit!
+    - Lines:
+      - Holy hell!
+    - Lines:
+      - Oh shit!
+    - Lines:
+      - Owww...
+    - Lines:
+      - The hell?
+    - Lines:
+      - Oof!
+    - Lines:
+      - Crap!
+  - Key: annoyed
+    Chains:
+    - Lines:
+      - Hey!
+    - Lines:
+      - Enough!
+    - Lines:
+      - Piss off!
+    - Lines:
+      - Goddamn it!
+    - Lines:
+      - Damn it!
+    - Lines:
+      - What do you want?
+    - Lines:
+      - The fuck?
+    - Lines:
+      - What?
+    - Lines:
+      - Shit!
+    - Lines:
+      - The hell is your problem?
+  - Key: noticed_pickpocket
+    Chains:
+    - Lines:
+      - HEY!!
+    - Lines:
+      - Enough!!
+    - Lines:
+      - Hey WHAT?
+    - Lines:
+      - What the hell?
+    - Lines:
+      - WHAT?
+    - Lines:
+      - Huh?!
+    - Lines:
+      - The hell?
+    - Lines:
+      - What?!
+    - Lines:
+      - SHIT!
+    - Lines:
+      - YOU FUCKER!

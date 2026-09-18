@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1269636267553708
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4634943251512857}
+  - component: {fileID: 114465403550125788}
+  m_Layer: 0
+  m_Name: CustomerModule_Unhinged
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4634943251512857
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269636267553708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114465403550125788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269636267553708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f2a8198eba548f8c67697e84f98a43, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ModuleType: 3
+  Entries:
+  - Key: customer_recommended
+    Chains:
+    - Lines:
+      - Hey, my friend said you were selling some good stuff. Could I get <PRODUCT>? I'll pay <PRICE> for it.
+    - Lines:
+      - Hey, my friend recommended you. Can I get <PRODUCT>? I'll pay <PRICE>.
+    - Lines:
+      - Hi. My friend said you were selling. Could I get <PRODUCT>? I can pay <PRICE>
+  - Key: customer_sampled
+    Chains:
+    - Lines:
+      - Hey, that sample was some good stuff. Could I get <PRODUCT>? I'll pay <PRICE> for it.
+    - Lines:
+      - Hey, you gave me a sample earlier. Very nice stuff. Can I get <PRODUCT>? I'll pay <PRICE>.
+    - Lines:
+      - Hello, I liked that sample you gave me. Can I get <PRODUCT>? I can pay <PRICE>
+  - Key: awaiting_deal
+    Chains:
+    - Lines:
+      - Yeah??
+    - Lines:
+      - You got it?
+    - Lines:
+      - Come on come on!
+    - Lines:
+      - Come on lets go
+    - Lines:
+      - Finally
+  - Key: contract_accepted
+    Chains:
+    - Lines:
+      - Good!! I'll see u <LOCATION> between <WINDOW_START> and <WINDOW_END>.
+  - Key: contract_rejected
+    Chains:
+    - Lines:
+      - Arghhh!!!
+    - Lines:
+      - Come on!!
+    - Lines:
+      - God damn it
+    - Lines:
+      - Shit
+  - Key: sample_offer_accepted
+    Chains:
+    - Lines:
+      - Yeah ok
+    - Lines:
+      - Why not
+    - Lines:
+      - Ok fine
+    - Lines:
+      - Yes!
+  - Key: sample_offer_rejected
+    Chains:
+    - Lines:
+      - No!
+    - Lines:
+      - Nope
+    - Lines:
+      - Do I know you?
+    - Lines:
+      - What are you talking about?
+    - Lines:
+      - Go away
+  - Key: sample_offer_rejected_police
+    Chains:
+    - Lines:
+      - What?! I'm calling the cops
+    - Lines:
+      - Get away from me!
+    - Lines:
+      - Are you insane?!
+    - Lines:
+      - No way! I'm calling the cops
+    - Lines:
+      - Huh?! I'm getting the cops on you
+  - Key: sample_sufficient
+    Chains:
+    - Lines:
+      - Oooh yeah not bad! I'll text you
+    - Lines:
+      - 'Oh very nice! You''ll be hearing from me '
+    - Lines:
+      - That's some good shit!! You'll hear from me
+    - Lines:
+      - Oh damn, I need me more of that. I'll text you
+    - Lines:
+      - Goddamn, that's nice!! I'll message you later
+  - Key: sample_insufficient
+    Chains:
+    - Lines:
+      - Argh! That's nasty
+    - Lines:
+      - The hell was that?
+    - Lines:
+      - Gross!
+    - Lines:
+      - I don't think so...
+    - Lines:
+      - That's shit!
+    - Lines:
+      - Ew. Get out of here!
+  - Key: contract_request
+    Chains:
+    - Lines:
+      - I NEED <PRODUCT>. I GOT <PRICE>. DEAL?
+    - Lines:
+      - U got <PRODUCT>??? I'll pay <PRICE> for it. DEAL?
+    - Lines:
+      - Need me <PRODUCT>! I'll pay <PRICE> yeah??
+    - Lines:
+      - I'm after <PRODUCT>. I can pay <PRICE> for it Deal??
+    - Lines:
+      - You got <PRODUCT>? I'll pay <PRICE> for it
+  - Key: customer_rejected_deal
+    Chains:
+    - Lines:
+      - This isn't what I asked for! The deal is off.
+    - Lines:
+      - Not what I asked for. The deal is off.
+    - Lines:
+      - You think I'm stupid? Deal is off.
+    - Lines:
+      - The deal is off. This is not what I wanted.
+    - Lines:
+      - What is this? The deal is off!
+  - Key: deal_completed
+    Chains:
+    - Lines:
+      - Yes!!!
+    - Lines:
+      - Oh thank god
+    - Lines:
+      - Very nice!
+    - Lines:
+      - Thanks
+    - Lines:
+      - Ooooh yeah
+  - Key: offer_expired
+    Chains:
+    - Lines:
+      - Nevermind!
+    - Lines:
+      - TOO LONG!! Nevermind
+    - Lines:
+      - Forget it!
+    - Lines:
+      - nvm
+  - Key: sample_consume_wait
+    Chains:
+    - Lines:
+      - One sec...
+    - Lines:
+      - Give me a sec...
+    - Lines:
+      - Let me try...
+    - Lines:
+      - Let's see...
+    - Lines:
+      - Hmm...
+  - Key: late_deal
+    Chains:
+    - Lines:
+      - About time...
+    - Lines:
+      - Finally...
+    - Lines:
+      - You finally ready?
+    - Lines:
+      - Come on, let's do do this
+  - Key: counteroffer_accepted
+    Chains:
+    - Lines:
+      - Arghh fine. What time?
+    - Lines:
+      - Ok whatever. What time?
+    - Lines:
+      - hmmmmm FINE. When?
+    - Lines:
+      - Damn it fine. What time?
+    - Lines:
+      - OK FINE! What time????
+  - Key: counteroffer_rejected
+    Chains:
+    - Lines:
+      - NO!!! Nevermind
+    - Lines:
+      - Goddammit no. I'll just look elsewhere
+    - Lines:
+      - Nope!! Nevermind
+    - Lines:
+      - You insane?! No thanks
+    - Lines:
+      - Not gonna happen!! I'll get it somewhere else bitch
+    - Lines:
+      - No way!!
+  - Key: post_deal_recommend
+    Chains:
+    - Lines:
+      - Yes thank you!!. Hey my friend <NAME> might be interested in your stuff. You should go talk to them.
+    - Lines:
+      - Oooh very nice! My friend <NAME> might like your stuff. Go check them out
+    - Lines:
+      - You got some good stuff! You should go talk to <NAME> - I think they'll like your stuff
+    - Lines:
+      - Finally some good stuff! Maybe go talk to <NAME>. I think they'd like your product
+    - Lines:
+      - This is good shit. <NAME> might be interested. You should go talk to them.
+  - Key: request_product_initial
+    Chains:
+    - Lines:
+      - HEY! I really need some of your stuff right now... you got anything?!
+    - Lines:
+      - HEY! I'm really in need right now. Please tell me you've got something I can buy..?
+    - Lines:
+      - I'm feining for something! You got anything I can buy??
+  - Key: request_product_after_follow
+    Chains:
+    - Lines:
+      - Ready yet??
+    - Lines:
+      - Ready??
+    - Lines:
+      - Please tell me you're ready...
+    - Lines:
+      - Come on, I need it now!
+  - Key: request_product_rejected
+    Chains:
+    - Lines:
+      - Goddammit!!
+    - Lines:
+      - Son of a bitch!
+    - Lines:
+      - Noooo!
+    - Lines:
+      - Damn it!
+    - Lines:
+      - Shit!
+    - Lines:
+      - Fuck!
+  - Key: offer_reject
+    Chains:
+    - Lines:
+      - No!
+    - Lines:
+      - I'm good
+    - Lines:
+      - No, not right now
+    - Lines:
+      - Nope
+    - Lines:
+      - Not yet
+    - Lines:
+      - No

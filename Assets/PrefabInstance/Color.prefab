@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1266332394856469
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4033551433390674}
+  - component: {fileID: 114559870232031264}
+  - component: {fileID: 114474448409583355}
+  m_Layer: 0
+  m_Name: Color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4033551433390674
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266332394856469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114559870232031264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266332394856469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb2e4cc8c6efebb94ddcac96f68719e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _componentIndexCache: 0
+  _networkObjectCache: {fileID: 114474448409583355}
+  featureName: Color
+  featureIcon: {fileID: 21300000, guid: e8873b36e6d39154ea3afc8570545253, type: 2}
+  featureIconLocation: {fileID: 4033551433390674}
+  featureInterfacePrefab: {fileID: 1410892057725524, guid: 83bf36db3b8af294e94e09bf6d485d0b, type: 2}
+  disableRoofDisibility: 0
+  colorTargets: []
+  secondaryTargets: []
+  colors:
+  - colorName: White
+    color: {r: 0.8235294, g: 0.8235294, b: 0.8235294, a: 1}
+    price: 100
+  - colorName: Grey
+    color: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+    price: 100
+  - colorName: Black
+    color: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
+    price: 100
+  - colorName: Red
+    color: {r: 0.67058825, g: 0.39607844, b: 0.3764706, a: 1}
+    price: 100
+  - colorName: Orange
+    color: {r: 0.67058825, g: 0.5058824, b: 0.3764706, a: 1}
+    price: 100
+  - colorName: Green
+    color: {r: 0.50980395, g: 0.5568628, b: 0.43137255, a: 1}
+    price: 100
+  - colorName: Light Blue
+    color: {r: 0.43137255, g: 0.5294118, b: 0.5568628, a: 1}
+    price: 100
+  - colorName: Dark Blue
+    color: {r: 0.3647059, g: 0.39607844, b: 0.48235294, a: 1}
+    price: 100
+  - colorName: Purple
+    color: {r: 0.40392157, g: 0.36078432, b: 0.48235294, a: 1}
+    price: 100
+  - colorName: Magenta
+    color: {r: 0.4915276, g: 0.3764706, b: 0.48235294, a: 1}
+    price: 100
+  defaultColorIndex: 0
+  ownedColorIndex: 0
+--- !u!114 &114474448409583355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266332394856469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1201363339, guid: 1f191796bb5acf747b48ef6cf55d4ccf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  <IsNested>k__BackingField: 0
+  <ComponentIndex>k__BackingField: 0
+  <PredictedSpawn>k__BackingField: {fileID: 0}
+  _networkBehaviours:
+  - {fileID: 114559870232031264}
+  <ParentNetworkObject>k__BackingField: {fileID: 0}
+  <ChildNetworkObjects>k__BackingField: []
+  SerializedTransformProperties:
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0, w: 0}
+    LocalScale: {x: 0, y: 0, z: 0}
+  _isNetworked: 1
+  _isGlobal: 0
+  _initializeOrder: 0
+  _defaultDespawnType: 0
+  NetworkObserver: {fileID: 0}
+  <PrefabId>k__BackingField: 148
+  <SpawnableCollectionId>k__BackingField: 0
+  _scenePathHash: 0
+  <SceneId>k__BackingField: 0
+  <AssetPathHash>k__BackingField: 12893006044623676985

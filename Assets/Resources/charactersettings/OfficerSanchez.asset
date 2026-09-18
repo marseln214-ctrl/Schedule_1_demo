@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: OfficerSanchez
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.6874951, g: 0.510643, b: 0.36246958, a: 1}
+  Height: 0.9585157
+  Gender: 0
+  Weight: 0.846875
+  HairPath: Avatar/Hair/Balding/Balding
+  HairColor: {r: 0.08035755, g: 0.068406954, b: 0.057434127, a: 1}
+  EyebrowScale: 1.2125
+  EyebrowThickness: 1.346875
+  EyebrowRestingHeight: -0.74375
+  EyebrowRestingAngle: 5.9999995
+  LeftEyeLidColor: {r: 0.6862745, g: 0.50980395, b: 0.36078432, a: 1}
+  RightEyeLidColor: {r: 0.6862745, g: 0.50980395, b: 0.36078432, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.35
+    bottomLidOpen: 0.175
+  RightEyeRestingState:
+    topLidOpen: 0.35
+    bottomLidOpen: 0.175
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_NeutralPout
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/FacialHair_Goatee
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 0}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.6006566}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/Buttonup
+    layerTint: {r: 0.24214783, g: 0.3006337, b: 0.48214322, a: 1}
+  - layerPath: Avatar/Layers/Bottom/CargoPants
+    layerTint: {r: 0.2410715, g: 0.2410715, b: 0.2410715, a: 1}
+  - layerPath:
+    layerTint: {r: 0.23214293, g: 0.23214293, b: 0.23214293, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/CombatBoots/CombatBoots
+    color: {r: 0.21428604, g: 0.21428604, b: 0.21428604, a: 1}
+  - path: Avatar/Accessories/Waist/PoliceBelt/PoliceBelt
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Chest/BulletproofVest/BulletproofVest_Police
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Head/Oakleys/Oakleys
+    color: {r: 0.14285716, g: 0.14285716, b: 0.14285716, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/OfficerSanchez_Combined

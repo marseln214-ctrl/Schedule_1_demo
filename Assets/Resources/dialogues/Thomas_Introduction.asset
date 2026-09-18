@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Thomas_Introduction
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 1199a8b9-9c36-4560-8649-524d69cc5d7b
+    BaseChoiceOrOptionGUID: 87b1c665-fd3a-4b30-a249-5d1a5496bf5f
+    TargetNodeGuid: 52237f4f-39d7-4460-87e1-8d3ea7884d98
+  - BaseDialogueOrBranchNodeGuid: 52237f4f-39d7-4460-87e1-8d3ea7884d98
+    BaseChoiceOrOptionGUID: cee257c7-7a45-4d22-a306-974fb84b8ede
+    TargetNodeGuid: a5b9b5c8-7d6a-40df-ac20-b1a9e341c904
+  - BaseDialogueOrBranchNodeGuid: a5b9b5c8-7d6a-40df-ac20-b1a9e341c904
+    BaseChoiceOrOptionGUID: ca8076df-7e70-4b50-9f75-a1b15127820f
+    TargetNodeGuid: 6620e824-2717-49dd-b99d-e53550b49a1c
+  - BaseDialogueOrBranchNodeGuid: 6620e824-2717-49dd-b99d-e53550b49a1c
+    BaseChoiceOrOptionGUID: 19bd0583-3b2b-40a4-9ce8-ea8f6db14c15
+    TargetNodeGuid: 64040967-003a-4094-a83a-e9f8e50786e2
+  - BaseDialogueOrBranchNodeGuid: 64040967-003a-4094-a83a-e9f8e50786e2
+    BaseChoiceOrOptionGUID: 4dfeff60-d6ef-4016-b17d-50dcca927252
+    TargetNodeGuid: bd45a0a1-edd7-498e-b3fb-e1d6b3848110
+  - BaseDialogueOrBranchNodeGuid: bd45a0a1-edd7-498e-b3fb-e1d6b3848110
+    BaseChoiceOrOptionGUID: 51c83a5f-ea51-4bf4-976f-e7f869390f4e
+    TargetNodeGuid: f461b04e-c690-4481-8905-7dbe6f842647
+  - BaseDialogueOrBranchNodeGuid: 64040967-003a-4094-a83a-e9f8e50786e2
+    BaseChoiceOrOptionGUID: e79d2095-2fac-4889-b90b-af7ac0d60919
+    TargetNodeGuid: 69ea1563-f986-4ff2-9885-a609b3fe4ccb
+  - BaseDialogueOrBranchNodeGuid: 69ea1563-f986-4ff2-9885-a609b3fe4ccb
+    BaseChoiceOrOptionGUID: 381a1820-c735-4ad4-8ea3-7e7915fb845a
+    TargetNodeGuid: bd45a0a1-edd7-498e-b3fb-e1d6b3848110
+  DialogueNodeData:
+  - Guid: 52237f4f-39d7-4460-87e1-8d3ea7884d98
+    DialogueText: Judging from the people that were after you, it would seem that we share a similar line of work.
+    DialogueNodeLabel:
+    Position: {x: 98, y: 262}
+    choices:
+    - Guid: cee257c7-7a45-4d22-a306-974fb84b8ede
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: a5b9b5c8-7d6a-40df-ac20-b1a9e341c904
+    DialogueText: So perhaps we could make a deal that will benefit us both. Well... me mostly.
+    DialogueNodeLabel:
+    Position: {x: 664, y: 559}
+    choices:
+    - Guid: ca8076df-7e70-4b50-9f75-a1b15127820f
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 6620e824-2717-49dd-b99d-e53550b49a1c
+    DialogueText: You will provide us with 15x Marijuana weekly. We will pay you of course, but considering our generosity earlier, it seems only fair that we pay a reduced price.
+    DialogueNodeLabel:
+    Position: {x: 1193, y: 731}
+    choices:
+    - Guid: 19bd0583-3b2b-40a4-9ce8-ea8f6db14c15
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: bd45a0a1-edd7-498e-b3fb-e1d6b3848110
+    DialogueText: Excellent, you can make your deliveries here at the end of every week. You'd be wise to uphold this agreement - it would be a shame to have to resort to violence.
+    DialogueNodeLabel: THOMAS_INTRO_DONE
+    Position: {x: 2929, y: 1014}
+    choices:
+    - Guid: 51c83a5f-ea51-4bf4-976f-e7f869390f4e
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: f461b04e-c690-4481-8905-7dbe6f842647
+    DialogueText: Good day.
+    DialogueNodeLabel:
+    Position: {x: 3865, y: 1201}
+    choices: []
+    VoiceLine: 0
+  - Guid: 69ea1563-f986-4ff2-9885-a609b3fe4ccb
+    DialogueText: 'I''m sorry. I may not have made myself clear... we WILL collect our payment, one way or another. '
+    DialogueNodeLabel:
+    Position: {x: 2353, y: 1477}
+    choices:
+    - Guid: 381a1820-c735-4ad4-8ea3-7e7915fb845a
+      ChoiceText: Okay...
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 64040967-003a-4094-a83a-e9f8e50786e2
+    DialogueText: Now, have we got a deal?
+    DialogueNodeLabel:
+    Position: {x: 2000, y: 1014}
+    choices:
+    - Guid: 4dfeff60-d6ef-4016-b17d-50dcca927252
+      ChoiceText: Yes
+      ChoiceLabel:
+    - Guid: e79d2095-2fac-4889-b90b-af7ac0d60919
+      ChoiceText: Why would I agree to that?
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 1199a8b9-9c36-4560-8649-524d69cc5d7b
+    DialogueText: Hello there, my name is Thomas Benzies. I was the one who helped you out with your little ...predicament... earlier.
+    DialogueNodeLabel: ENTRY
+    Position: {x: -542, y: 14}
+    choices:
+    - Guid: 87b1c665-fd3a-4b30-a249-5d1a5496bf5f
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  BranchNodeData: []

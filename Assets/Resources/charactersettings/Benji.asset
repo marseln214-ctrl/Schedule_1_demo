@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Benji
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.7011868, g: 0.53055453, b: 0.39220408, a: 1}
+  Height: 1.01
+  Gender: 0
+  Weight: 0.7
+  HairPath: Avatar/Hair/Afro/Afro
+  HairColor: {r: 0.37972316, g: 0.24699084, b: 0.12373941, a: 1}
+  EyebrowScale: 1.3193614
+  EyebrowThickness: 1.3952098
+  EyebrowRestingHeight: 0
+  EyebrowRestingAngle: 1.0778385
+  LeftEyeLidColor: {r: 0.7011868, g: 0.53055453, b: 0.39220408, a: 1}
+  RightEyeLidColor: {r: 0.7011868, g: 0.53055453, b: 0.39220408, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.3562874
+    bottomLidOpen: 0.20178394
+  RightEyeRestingState:
+    topLidOpen: 0.3562874
+    bottomLidOpen: 0.20178394
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_Neutral
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/FacialHair_Goatee
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.8918799}
+  - layerPath: Avatar/Layers/Face/TiredEyes
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/FlannelButtonup
+    layerTint: {r: 0.5244155, g: 0.20706037, b: 0.20706037, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.18705425, g: 0.18479829, b: 0.18479829, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Sandals/Sandals
+    color: {r: 0.39318722, g: 0.24097323, b: 0.07003868, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Benji_Combined

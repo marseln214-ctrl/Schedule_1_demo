@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Sam
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.7316079, g: 0.55597043, b: 0.41356167, a: 1}
+  Height: 0.98
+  Gender: 0
+  Weight: 0.4
+  HairPath: Avatar/Hair/Peaked/Peaked
+  HairColor: {r: 0.48235294, g: 0.3529412, b: 0, a: 1}
+  EyebrowScale: 1.2625
+  EyebrowThickness: 1.6468753
+  EyebrowRestingHeight: -0.7375
+  EyebrowRestingAngle: -0.46875
+  LeftEyeLidColor: {r: 0.7316079, g: 0.55597043, b: 0.41356167, a: 1}
+  RightEyeLidColor: {r: 0.7316079, g: 0.55597043, b: 0.41356167, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.340625
+    bottomLidOpen: 0.21875
+  RightEyeRestingState:
+    topLidOpen: 0.340625
+    bottomLidOpen: 0.21875
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.665625
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_Neutral
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/FacialHair_Goatee
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.97832495}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.8305417}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/RolledButtonup
+    layerTint: {r: 0.60762626, g: 0.76150864, b: 0.8809597, a: 1}
+  - layerPath: Avatar/Layers/Bottom/CargoPants
+    layerTint: {r: 0.3812006, g: 0.3812006, b: 0.3812006, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/CombatBoots/CombatBoots
+    color: {r: 0.34822446, g: 0.26495507, b: 0.15001637, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.34822416, g: 0.23229976, b: 0.07228762, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Head/Cap/Cap
+    color: {r: 0.2714133, g: 0.44642973, b: 0.17239363, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Sam_Combined

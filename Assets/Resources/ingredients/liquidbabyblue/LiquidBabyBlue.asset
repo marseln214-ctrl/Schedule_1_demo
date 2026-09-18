@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd23cb427eeeddc34843668dba16fd28, type: 3}
+  m_Name: LiquidBabyBlue
+  m_EditorClassIdentifier:
+  Name: Baby Blue (Liquid)
+  Description: The 'Baby Blue' methamphetamine variant in liquid form. Use a drying oven to bake into solid form.
+  ID: liquidbabyblue
+  Icon: {fileID: 21300000, guid: 01880165a0344a0439d86063f0c492d5, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114865083098282403, guid: 7ec35dc169c95f147a6495e451e97e68, type: 2}
+  CustomItemUI: {fileID: 114933633794645597, guid: 914a9a392cb1d0841ab5208f2a17e0d8, type: 2}
+  CustomInfoContent: {fileID: 114378039737944440, guid: f4824b7fcfc7f144ba8415b40558b4e2, type: 2}
+  legalStatus: 4
+  BasePurchasePrice: 10
+  ShopCategories: []
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114891387016303326, guid: 7d6deecb956cc2c4e90f3927e5de5e2e, type: 2}
+  StationItem: {fileID: 114133279480140355, guid: 4123c41184a3433449a3f7da02013dc5, type: 2}
+  DefaultQuality: 2
+  StaticLiquidColor: {r: 0.7122642, g: 0.92471075, b: 1, a: 1}
+  LiquidVolumeColor: {r: 0.6462264, g: 0.9069914, b: 1, a: 0.5019608}
+  PourParticlesColor: {r: 0.5764706, g: 0.799783, b: 0.8666667, a: 1}
+  CookableLiquidColor: {r: 0.64907444, g: 0.8986843, b: 0.9622642, a: 0.3529412}
+  CookableSolidColor: {r: 0.495283, g: 0.89999336, b: 1, a: 1}

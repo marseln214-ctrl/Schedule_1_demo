@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: OscarGreeting
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 3abc1777-a6ce-4ba4-993a-5142962333eb
+    BaseChoiceOrOptionGUID: 432a3a2f-9972-4cde-bad8-05235c991378
+    TargetNodeGuid: e4672877-8fd6-4476-ab24-f6b623a2f6cc
+  - BaseDialogueOrBranchNodeGuid: 3abc1777-a6ce-4ba4-993a-5142962333eb
+    BaseChoiceOrOptionGUID: 1201aa90-495b-4e89-a5fa-ce0f0340b228
+    TargetNodeGuid: 59b40b49-cbb0-459d-8047-e62e3a9ec124
+  - BaseDialogueOrBranchNodeGuid: 3abc1777-a6ce-4ba4-993a-5142962333eb
+    BaseChoiceOrOptionGUID: 4feeaa6c-3473-431b-b440-2d0a4ec991aa
+    TargetNodeGuid: 8ff3f4d6-3b2e-4e70-a792-e4801206175c
+  - BaseDialogueOrBranchNodeGuid: e4672877-8fd6-4476-ab24-f6b623a2f6cc
+    BaseChoiceOrOptionGUID: 89611c53-d356-47d5-8762-30c8a5979f19
+    TargetNodeGuid: 3e61655f-9538-4d31-b0af-e55922e4febb
+  - BaseDialogueOrBranchNodeGuid: 59b40b49-cbb0-459d-8047-e62e3a9ec124
+    BaseChoiceOrOptionGUID: 55e17b1c-2e47-4daa-83f2-dfcfc21ebe2f
+    TargetNodeGuid: 3e61655f-9538-4d31-b0af-e55922e4febb
+  - BaseDialogueOrBranchNodeGuid: 8ff3f4d6-3b2e-4e70-a792-e4801206175c
+    BaseChoiceOrOptionGUID: 3ddd2ede-3af9-4433-8712-39db435bf079
+    TargetNodeGuid: 3e61655f-9538-4d31-b0af-e55922e4febb
+  DialogueNodeData:
+  - Guid: 3abc1777-a6ce-4ba4-993a-5142962333eb
+    DialogueText: Hello there, you smell nice...
+    DialogueNodeLabel: ENTRY
+    Position: {x: 296, y: 315}
+    choices:
+    - Guid: 432a3a2f-9972-4cde-bad8-05235c991378
+      ChoiceText: Thanks...
+      ChoiceLabel:
+    - Guid: 1201aa90-495b-4e89-a5fa-ce0f0340b228
+      ChoiceText: Huh?
+      ChoiceLabel:
+    - Guid: 4feeaa6c-3473-431b-b440-2d0a4ec991aa
+      ChoiceText: Piss off
+      ChoiceLabel:
+    VoiceLine: 1
+  - Guid: e4672877-8fd6-4476-ab24-f6b623a2f6cc
+    DialogueText: You’re welcome friend. If you need special equipment or supplies, Oscar has what you need.
+    DialogueNodeLabel:
+    Position: {x: 809, y: 192}
+    choices:
+    - Guid: 89611c53-d356-47d5-8762-30c8a5979f19
+      ChoiceText: What sort of stuff do you sell?
+      ChoiceLabel:
+    - Guid: 6c64bc93-596c-4c04-8786-6b6a9ecae8d7
+      ChoiceText: Okay
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 59b40b49-cbb0-459d-8047-e62e3a9ec124
+    DialogueText: Hehe nothing... just Oscar being friendly. If you need special equipment or supplies, Oscar has what you need.
+    DialogueNodeLabel:
+    Position: {x: 785, y: 438}
+    choices:
+    - Guid: 55e17b1c-2e47-4daa-83f2-dfcfc21ebe2f
+      ChoiceText: What sort of stuff do you sell?
+      ChoiceLabel:
+    - Guid: 441a27df-5dc7-48e4-89c2-7f23c790e539
+      ChoiceText: Okay
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 8ff3f4d6-3b2e-4e70-a792-e4801206175c
+    DialogueText: Hehe Oscar was just joking. If you need special equipment or supplies, Oscar has what you need.
+    DialogueNodeLabel:
+    Position: {x: 785, y: 686}
+    choices:
+    - Guid: 3ddd2ede-3af9-4433-8712-39db435bf079
+      ChoiceText: What sort of stuff do you sell?
+      ChoiceLabel:
+    - Guid: 38f38ef8-9a92-4770-84e2-296bd3ff23ed
+      ChoiceText: Okay
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 3e61655f-9538-4d31-b0af-e55922e4febb
+    DialogueText: Oscar sells special equipment and supplies.
+    DialogueNodeLabel:
+    Position: {x: 1700, y: 381}
+    choices:
+    - Guid: 7de3147b-d7f8-4d09-a5f9-09117c1a4b8d
+      ChoiceText: Yeah okay thanks...
+      ChoiceLabel:
+    VoiceLine: 14
+  BranchNodeData: []

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_MethIntro
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: You've now got the connections you need to start manufacturing something a bit harder - methamphetamine. Nasty, messy drug, but hella profitable for you.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Unlike weed, meth doesn't grow on trees, so you're gonna get to get yourself some specialized equipment before you can start cooking.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Your one-off purchases will be a <h1>chemistry station</h> and a <h1>lab oven</h>. Both can be purchased from Oscar at the warehouse.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: 'For each batch, you''ll need <h1>acid, phosphorus</h> and <h1>pseudo.</h> The first two are easy enough to come by and can be purchased from Oscar, but you''ll need to talk to <h1>Shirley</h> for the pseudo. '
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Once you've got all those supplies, you'll be ready to start cookin' up a batch.
+    OnStartTriggers: []
+    OnDoneTriggers:
+    - Conditions:
+        EvaluationType: 0
+        ConditionList: []
+        QuestConditionList: []
+      onEvaluateTrueVariableSetters: []
+      onEvaluateTrueQuestSetters:
+      - QuestName: We Need To Cook
+        SetQuestState: 0
+        QuestState: 0
+        SetQuestEntryState: 1
+        QuestEntryIndex: 0
+        QuestEntryState: 2
+      onEvaluateTrue:
+        m_PersistentCalls:
+          m_Calls: []
+      onEvaluateFalseVariableSetters: []
+      onEvaluateFalseQuestSetters: []
+      onEvaluateFalse:
+        m_PersistentCalls:
+          m_Calls: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

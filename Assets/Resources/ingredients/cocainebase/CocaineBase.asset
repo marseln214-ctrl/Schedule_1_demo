@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea79d72f3ae34ad2fb460e6b944cfd8f, type: 3}
+  m_Name: CocaineBase
+  m_EditorClassIdentifier:
+  Name: Cocaine Base
+  Description: "Raw cocaine base ready to be cooked into cocaine.\t\t"
+  ID: cocainebase
+  Icon: {fileID: 21300000, guid: 834edaac43138a844b9dab5c8be1277e, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114456044786454457, guid: 8e40c03cbde1875469e0f568d50443b4, type: 2}
+  CustomItemUI: {fileID: 114933633794645597, guid: 914a9a392cb1d0841ab5208f2a17e0d8, type: 2}
+  CustomInfoContent: {fileID: 114378039737944440, guid: f4824b7fcfc7f144ba8415b40558b4e2, type: 2}
+  legalStatus: 1
+  BasePurchasePrice: 10
+  ShopCategories: []
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114460994781357224, guid: a68b4ef9461cfad44b2eef4c9f0a3795, type: 2}
+  StationItem: {fileID: 114989843478201518, guid: 3290d55474bd460429ba77f716d871d0, type: 2}
+  DefaultQuality: 2

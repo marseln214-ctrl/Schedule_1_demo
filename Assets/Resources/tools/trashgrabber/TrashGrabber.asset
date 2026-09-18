@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8716ca68c03eb11d0251638284859da5, type: 3}
+  m_Name: TrashGrabber
+  m_EditorClassIdentifier:
+  Name: Trash Grabber
+  Description: Used to easily collect trash.
+  ID: trashgrabber
+  Icon: {fileID: 21300000, guid: 850299dc292597b4e83d48491c449d04, type: 2}
+  Category: 3
+  Keywords:
+  - garbage
+  - trash
+  - picker
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 1
+  Equippable: {fileID: 114889672242705627, guid: 3979477a914d4444b90e4f379255c05f, type: 2}
+  CustomItemUI: {fileID: 114460124051957076, guid: ee815c30944de1441b15e6737bcb57e0, type: 2}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 20
+  ShopCategories:
+  - Category: 3
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114357071860745472, guid: 785fcec6129a80f428f72cfbf53d0527, type: 2}
+  StationItem: {fileID: 0}

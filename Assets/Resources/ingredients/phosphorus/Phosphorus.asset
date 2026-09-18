@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51d1b1636495af3ddbb738ad0d2e7f4, type: 3}
+  m_Name: Phosphorus
+  m_EditorClassIdentifier:
+  Name: Phosphorus
+  Description: Common chemical ingredient in powder form. Used in matches and meth.
+  ID: phosphorus
+  Icon: {fileID: 21300000, guid: df6e347fe52d4ed41a8c9da26cba1193, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114538548553480349, guid: 0314e3d869e19d44a87c95fa5af0bb6b, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 1
+  BasePurchasePrice: 40
+  ShopCategories:
+  - Category: 6
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114817216085678820, guid: 47beb39ad711c5a41850f864d194c9a4, type: 2}
+  StationItem: {fileID: 114908367198593513, guid: 2c27b146d2f633445852283a77126f15, type: 2}

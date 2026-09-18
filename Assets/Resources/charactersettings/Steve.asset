@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Steve
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.6709447, g: 0.55891883, b: 0.4680871, a: 1}
+  Height: 0.99375683
+  Gender: 0
+  Weight: 0.5141304
+  HairPath: Avatar/Hair/Peaked/Peaked
+  HairColor: {r: 0.39849433, g: 0.36640114, b: 0.33457655, a: 1}
+  EyebrowScale: 1.0570648
+  EyebrowThickness: 1.5163045
+  EyebrowRestingHeight: 0.79347837
+  EyebrowRestingAngle: -1.5896702
+  LeftEyeLidColor: {r: 0.6709447, g: 0.55891883, b: 0.4680871, a: 1}
+  RightEyeLidColor: {r: 0.6709447, g: 0.55891883, b: 0.4680871, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.3817936
+    bottomLidOpen: 0.2554346
+  RightEyeRestingState:
+    topLidOpen: 0.3817936
+    bottomLidOpen: 0.2554346
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_SlightSmile
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/FacialHair_Goatee
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.8580275}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.6224313}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/FlannelButtonup
+    layerTint: {r: 1, g: 0.7131245, b: 0.095400155, a: 1}
+  - layerPath: Avatar/Layers/Bottom/CargoPants
+    layerTint: {r: 0.19155152, g: 0.23287061, b: 0.27600986, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/CombatBoots/CombatBoots
+    color: {r: 0.3019608, g: 0.23529412, b: 0.16470589, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.3019608, g: 0.23529412, b: 0.16470589, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Steve_Combined

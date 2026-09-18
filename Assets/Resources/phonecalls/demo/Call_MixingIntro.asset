@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_MixingIntro
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: With Benji's help, you'll be able to move a good quantity of product. Now it's time to start manufacturing and selling <h1>higher value</h> product.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: You might've noticed you can buy different weed seed strains from Albert, but you can create even more unique products with a <h1>mixing station</h>.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: At a <h1>mixing station</h>, you mix products with special <h1>ingredients</h> to create new mixes with <h1>unique effects</h>. Customers will pay more for these products.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: To get started, go purchase a <h1>mixing station</h> from Dan's hardware. After that, you'll want to grab something to mix with your weed from the local Gas-Mart.
+    OnStartTriggers: []
+    OnDoneTriggers:
+    - Conditions:
+        EvaluationType: 0
+        ConditionList: []
+        QuestConditionList: []
+      onEvaluateTrueVariableSetters: []
+      onEvaluateTrueQuestSetters:
+      - QuestName: Mixing Mania
+        SetQuestState: 0
+        QuestState: 0
+        SetQuestEntryState: 1
+        QuestEntryIndex: 0
+        QuestEntryState: 2
+      onEvaluateTrue:
+        m_PersistentCalls:
+          m_Calls: []
+      onEvaluateFalseVariableSetters: []
+      onEvaluateFalseQuestSetters: []
+      onEvaluateFalse:
+        m_PersistentCalls:
+          m_Calls: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

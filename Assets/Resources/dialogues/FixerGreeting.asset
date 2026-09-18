@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: FixerGreeting
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 5dbc712f-d4cd-4487-b0f6-57f3d00a0255
+    BaseChoiceOrOptionGUID: a9d6ec5a-2712-464f-ad45-340feffd04b3
+    TargetNodeGuid: cd5c04f0-e549-43d5-9cde-92090fc40c89
+  - BaseDialogueOrBranchNodeGuid: 5dbc712f-d4cd-4487-b0f6-57f3d00a0255
+    BaseChoiceOrOptionGUID: de9848e2-936f-463f-876a-2496575abea3
+    TargetNodeGuid: ed34d238-6296-4087-9b43-23a5df43b2d4
+  - BaseDialogueOrBranchNodeGuid: 5dbc712f-d4cd-4487-b0f6-57f3d00a0255
+    BaseChoiceOrOptionGUID: 7f7416b9-7f69-44ef-8353-ea988ee308ac
+    TargetNodeGuid: f2543a79-ca0b-4ca5-9069-99f07eb17d4e
+  - BaseDialogueOrBranchNodeGuid: cd5c04f0-e549-43d5-9cde-92090fc40c89
+    BaseChoiceOrOptionGUID: 680c76bf-7ac5-4512-92d8-fd4145eb31f8
+    TargetNodeGuid: 0e6393c6-2fcf-403a-883f-8acc76befd79
+  - BaseDialogueOrBranchNodeGuid: ed34d238-6296-4087-9b43-23a5df43b2d4
+    BaseChoiceOrOptionGUID: b688a721-c7f6-4498-b83f-465f75a28a7e
+    TargetNodeGuid: 0e6393c6-2fcf-403a-883f-8acc76befd79
+  DialogueNodeData:
+  - Guid: cd5c04f0-e549-43d5-9cde-92090fc40c89
+    DialogueText: Good. I’m Manny. I’m the local fixer. You looking to hire workers, you talk to me.
+    DialogueNodeLabel:
+    Position: {x: 994, y: 272}
+    choices:
+    - Guid: 680c76bf-7ac5-4512-92d8-fd4145eb31f8
+      ChoiceText: How much does it cost to hire someone?
+      ChoiceLabel:
+    - Guid: 70834651-e06c-4a33-96c9-61fe9eee4ed5
+      ChoiceText: Thanks
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: ed34d238-6296-4087-9b43-23a5df43b2d4
+    DialogueText: Haha very cute. I’m Manny. I’m the local fixer. You looking to hire workers, you talk to me.
+    DialogueNodeLabel:
+    Position: {x: 994, y: 514}
+    choices:
+    - Guid: b688a721-c7f6-4498-b83f-465f75a28a7e
+      ChoiceText: How much does it cost to hire someone?
+      ChoiceLabel:
+    - Guid: bd3f2c9b-0dbb-4d38-a5d0-1221fc288ccd
+      ChoiceText: Thanks
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: f2543a79-ca0b-4ca5-9069-99f07eb17d4e
+    DialogueText: Alright then, fuck off.
+    DialogueNodeLabel:
+    Position: {x: 994, y: 748}
+    choices: []
+    VoiceLine: 9
+  - Guid: 0e6393c6-2fcf-403a-883f-8acc76befd79
+    DialogueText: Depends on what sort of talent you need. Cleaners and Packagers are pretty cheap, Botanists a bit more, and Chemists are the most expensive.
+    DialogueNodeLabel:
+    Position: {x: 1707, y: 323}
+    choices:
+    - Guid: fb350f4d-17f8-4efb-93fc-fc58817ef6ba
+      ChoiceText: Thanks
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 5dbc712f-d4cd-4487-b0f6-57f3d00a0255
+    DialogueText: "You the new guy in town?\t"
+    DialogueNodeLabel: ENTRY
+    Position: {x: 514, y: 460}
+    choices:
+    - Guid: a9d6ec5a-2712-464f-ad45-340feffd04b3
+      ChoiceText: Yes
+      ChoiceLabel:
+    - Guid: de9848e2-936f-463f-876a-2496575abea3
+      ChoiceText: Probably
+      ChoiceLabel:
+    - Guid: 7f7416b9-7f69-44ef-8353-ea988ee308ac
+      ChoiceText: No
+      ChoiceLabel:
+    VoiceLine: 6
+  BranchNodeData: []

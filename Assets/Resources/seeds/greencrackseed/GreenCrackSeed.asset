@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a7dd3796092a89ba8259fc1dbb421e, type: 3}
+  m_Name: GreenCrackSeed
+  m_EditorClassIdentifier:
+  Name: Green Crack Seed
+  Description: One 'Green Crack' marijuana seed.
+  ID: greencrackseed
+  Icon: {fileID: 21300000, guid: 03e245fa5cf13604ca02029dd2ba7ea4, type: 2}
+  Category: 2
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114995804381831436, guid: 232791bc0d03029418a16bb1351c4a52, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 40
+  ShopCategories:
+  - Category: 2
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 1
+    Tier: 2
+  StoredItem: {fileID: 114267562289023507, guid: 865e6ce2fb7f7a944809bf99910afe36, type: 2}
+  StationItem: {fileID: 0}
+  FunctionSeedPrefab: {fileID: 114500638451842269, guid: 1856d1ddeaa2e384d814ded6f0c3404e, type: 2}
+  PlantPrefab: {fileID: 114104040904871278, guid: d6620764dfc45084899ad1b0f8e2313e, type: 2}

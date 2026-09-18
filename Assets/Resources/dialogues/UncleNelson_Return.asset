@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: UncleNelson_Return
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: cddb54e4-8272-47c2-b988-efbbc950982e
+    BaseChoiceOrOptionGUID: 0b5136ef-f277-4395-9387-db71829f563c
+    TargetNodeGuid: ad1e3a94-e04e-4cc6-81eb-ba258af80603
+  - BaseDialogueOrBranchNodeGuid: ad1e3a94-e04e-4cc6-81eb-ba258af80603
+    BaseChoiceOrOptionGUID: 5485c79c-2475-43d9-a0a3-66cfa43bde99
+    TargetNodeGuid: 4acad854-40d9-4bcf-9c72-cae663a9fce9
+  DialogueNodeData:
+  - Guid: cddb54e4-8272-47c2-b988-efbbc950982e
+    DialogueText: Evenin', you'd you get on in town?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 177, y: 291}
+    choices:
+    - Guid: 0b5136ef-f277-4395-9387-db71829f563c
+      ChoiceText: All good. Got your package but those guys were pretty antsy
+      ChoiceLabel:
+    VoiceLine: 1
+  - Guid: ad1e3a94-e04e-4cc6-81eb-ba258af80603
+    DialogueText: Oh yeah? Eh don't worry about 'em. I'll settle with them soon enough. Thanks for grabbing that for me.
+    DialogueNodeLabel:
+    Position: {x: 715, y: 425}
+    choices:
+    - Guid: 5485c79c-2475-43d9-a0a3-66cfa43bde99
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 4acad854-40d9-4bcf-9c72-cae663a9fce9
+    DialogueText: Well I'll let you get on with it. See ya tomorrow, bud.
+    DialogueNodeLabel: END
+    Position: {x: 1382, y: 544}
+    choices: []
+    VoiceLine: 14
+  BranchNodeData: []

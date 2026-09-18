@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Harold
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.5441079, g: 0.39470384, b: 0.2735654, a: 1}
+  Height: 0.98
+  Gender: 0
+  Weight: 0.221875
+  HairPath: Avatar/Hair/Spiky/Spiky
+  HairColor: {r: 0.55357206, g: 0.51269484, b: 0.47473747, a: 1}
+  EyebrowScale: 1.29375
+  EyebrowThickness: 1.3843751
+  EyebrowRestingHeight: -0.19375002
+  EyebrowRestingAngle: -1.1249998
+  LeftEyeLidColor: {r: 0.5441079, g: 0.39470384, b: 0.2735654, a: 1}
+  RightEyeLidColor: {r: 0.5441079, g: 0.39470384, b: 0.2735654, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.328125
+    bottomLidOpen: 0.5
+  RightEyeRestingState:
+    topLidOpen: 0.328125
+    bottomLidOpen: 0.5
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_NeutralPout
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/FacialHair_Stubble
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.6581279}
+  - layerPath: Avatar/Layers/Face/TiredEyes
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.84696203}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.17315055, g: 0.2740311, b: 0.42857152, a: 1}
+  - layerPath: Avatar/Layers/Top/T-Shirt
+    layerTint: {r: 0.16071434, g: 0.16071434, b: 0.16071434, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/DressShoes/DressShoes
+    color: {r: 0.14285716, g: 0.14285716, b: 0.14285716, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Chest/OpenVest/OpenVest
+    color: {r: 0.65178573, g: 0.46656403, b: 0.21095745, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Hands/Polex/Polex
+    color: {r: 0.7589286, g: 0.7589286, b: 0.7589286, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Harold_Combined

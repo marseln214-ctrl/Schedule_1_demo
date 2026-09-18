@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ebf705b0aab250f43b55343a2925cc8, type: 3}
+  m_Name: Fertilizer
+  m_EditorClassIdentifier:
+  Name: Fertilizer
+  Description: All-natural fertilizer which will increase the quality of your plants.
+  ID: fertilizer
+  Icon: {fileID: 21300000, guid: c5b113e35c5188b428ee7fa20734b14e, type: 2}
+  Category: 2
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114262746881067824, guid: 84671ab385a0e4b4999c83edfd2f5f02, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 30
+  ShopCategories:
+  - Category: 2
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 0
+    Tier: 4
+  StoredItem: {fileID: 114962700003137639, guid: b46b2ce62ed1c5549865f1f6939b20ee, type: 2}
+  StationItem: {fileID: 0}
+  AdditivePrefab: {fileID: 114767547069123743, guid: e356ac0ea63a4de4596f4c8f5efa9ce6, type: 2}

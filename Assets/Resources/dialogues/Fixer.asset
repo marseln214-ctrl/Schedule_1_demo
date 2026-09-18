@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Fixer
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 62eba995-844b-444a-b740-75de8dd4c4e5
+    BaseChoiceOrOptionGUID: cc771db7-17c7-4ee1-bedc-8402a074652b
+    TargetNodeGuid: ec6039b4-cf22-46bc-b078-d97dca4202b2
+  - BaseDialogueOrBranchNodeGuid: 62eba995-844b-444a-b740-75de8dd4c4e5
+    BaseChoiceOrOptionGUID: b63b331b-15ba-4e2e-a1fd-eb0878ee47ac
+    TargetNodeGuid: ec6039b4-cf22-46bc-b078-d97dca4202b2
+  - BaseDialogueOrBranchNodeGuid: 62eba995-844b-444a-b740-75de8dd4c4e5
+    BaseChoiceOrOptionGUID: 924e88be-1e34-4c6e-ab57-d6429692c222
+    TargetNodeGuid: ec6039b4-cf22-46bc-b078-d97dca4202b2
+  - BaseDialogueOrBranchNodeGuid: 62eba995-844b-444a-b740-75de8dd4c4e5
+    BaseChoiceOrOptionGUID: 6194aa23-82b1-48dc-8ee3-d27f0a81b8b7
+    TargetNodeGuid: ec6039b4-cf22-46bc-b078-d97dca4202b2
+  - BaseDialogueOrBranchNodeGuid: 52f71dd8-ff10-4aa3-913f-47c539acc9a8
+    BaseChoiceOrOptionGUID: 3321a527-4d93-4ff2-b353-cb9c564bb3c0
+    TargetNodeGuid: 9a47993f-0c2f-4a31-bcaf-8f0d6b670428
+  - BaseDialogueOrBranchNodeGuid: 9a47993f-0c2f-4a31-bcaf-8f0d6b670428
+    BaseChoiceOrOptionGUID: 9977473f-24fa-4e1f-86ea-5a167ae632f3
+    TargetNodeGuid: 326b957e-c2c4-4b36-82df-07f737730eb5
+  - BaseDialogueOrBranchNodeGuid: 9a47993f-0c2f-4a31-bcaf-8f0d6b670428
+    BaseChoiceOrOptionGUID: 1ab0edce-8277-4e7f-89ea-ee3a334c7b42
+    TargetNodeGuid: 0c3a763a-0619-47db-ae92-fdd19977078a
+  DialogueNodeData:
+  - Guid: ec6039b4-cf22-46bc-b078-d97dca4202b2
+    DialogueText: Where you do want them? Keep in mind you'll have to provide a bed for this employee.
+    DialogueNodeLabel: SELECT_LOCATION
+    Position: {x: 1106, y: 487}
+    choices: []
+    VoiceLine: 6
+  - Guid: 62eba995-844b-444a-b740-75de8dd4c4e5
+    DialogueText: I can help you with that. What sort of employee are you looking for?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 442, y: 374}
+    choices:
+    - Guid: cc771db7-17c7-4ee1-bedc-8402a074652b
+      ChoiceText: Cleaner (picking up trash, emptying trash cans)
+      ChoiceLabel: Cleaner
+    - Guid: b63b331b-15ba-4e2e-a1fd-eb0878ee47ac
+      ChoiceText: Botanist (planting, plant maintenance, harvesting)
+      ChoiceLabel: Botanist
+    - Guid: 924e88be-1e34-4c6e-ab57-d6429692c222
+      ChoiceText: Packager (packaging, moving items)
+      ChoiceLabel: Packager
+    - Guid: 6194aa23-82b1-48dc-8ee3-d27f0a81b8b7
+      ChoiceText: Chemist (chemistry station, lab oven, cauldron, mixing station)
+      ChoiceLabel: Chemist
+    VoiceLine: 0
+  - Guid: 52f71dd8-ff10-4aa3-913f-47c539acc9a8
+    DialogueText: That'll be a <SIGN_FEE> signing free, and the employee's daily wage will be <DAILY_WAGE>.
+    DialogueNodeLabel: FINALIZE
+    Position: {x: 1679, y: 525}
+    choices:
+    - Guid: 3321a527-4d93-4ff2-b353-cb9c564bb3c0
+      ChoiceText: Deal
+      ChoiceLabel: CONFIRM
+    - Guid: 40720aab-a49e-49d1-8e13-0ff0fd53967a
+      ChoiceText: Nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 326b957e-c2c4-4b36-82df-07f737730eb5
+    DialogueText: Cheers. I'll send your new employee over to your property now.
+    DialogueNodeLabel:
+    Position: {x: 2709, y: 380}
+    choices: []
+    VoiceLine: 3
+  - Guid: 0c3a763a-0619-47db-ae92-fdd19977078a
+    DialogueText: Cheers. I'll send your new employee over to your property now. I'm also giving you a clipboard, which you can use to manage your employees and equipment.
+    DialogueNodeLabel:
+    Position: {x: 2709, y: 654}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData:
+  - Guid: 9a47993f-0c2f-4a31-bcaf-8f0d6b670428
+    BranchLabel: IS_FIRST_WORKER
+    Position: {x: 2375, y: 534}
+    options:
+    - Guid: 9977473f-24fa-4e1f-86ea-5a167ae632f3
+    - Guid: 1ab0edce-8277-4e7f-89ea-ee3a334c7b42

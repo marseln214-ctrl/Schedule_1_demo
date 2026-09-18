@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_WarehouseIntro
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: It sounds like you're starting to build a reputation in town - even in prison I've heard talk of a new dealer in HP...
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: This might come with some risk, but it also brings <h1>opportunity</h>. Now that you've got a name for yourself, you might be able gain access to the <h1>warehouse.</h>
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: 'It''s the local spot where you can do business with... like-minded individuals. Weapons, specialized equipment, workers for hire - all the good stuff. '
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: It's the big brick building behind the liquor store. Head down there and see if you can mosey your way in.
+    OnStartTriggers: []
+    OnDoneTriggers:
+    - Conditions:
+        EvaluationType: 0
+        ConditionList: []
+        QuestConditionList: []
+      onEvaluateTrueVariableSetters: []
+      onEvaluateTrueQuestSetters:
+      - QuestName: Wretched Hive of Scum and Villainy
+        SetQuestState: 0
+        QuestState: 0
+        SetQuestEntryState: 1
+        QuestEntryIndex: 0
+        QuestEntryState: 2
+      onEvaluateTrue:
+        m_PersistentCalls:
+          m_Calls: []
+      onEvaluateFalseVariableSetters: []
+      onEvaluateFalseQuestSetters: []
+      onEvaluateFalse:
+        m_PersistentCalls:
+          m_Calls: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

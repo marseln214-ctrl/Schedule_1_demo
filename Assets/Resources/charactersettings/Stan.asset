@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Stan
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.8842535, g: 0.64261836, b: 0.446698, a: 1}
+  Height: 1.0112094
+  Gender: 0.1248373
+  Weight: 1
+  HairPath: Avatar/Hair/BuzzCut/BuzzCut
+  HairColor: {r: 0.36948508, g: 0.20632496, b: 0.054819126, a: 1}
+  EyebrowScale: 1.4739109
+  EyebrowThickness: 1.1170354
+  EyebrowRestingHeight: -0.06241834
+  EyebrowRestingAngle: -1.0533142
+  LeftEyeLidColor: {r: 0.8842535, g: 0.64261836, b: 0.446698, a: 1}
+  RightEyeLidColor: {r: 0.8842535, g: 0.64261836, b: 0.446698, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.30104026
+    bottomLidOpen: 0.30104047
+  RightEyeRestingState:
+    topLidOpen: 0.30104026
+    bottomLidOpen: 0.30104047
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.58758104
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_NeutralPout
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/FacialHair_Goatee
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0.015544986, g: 0.015544986, b: 0.015544986, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath: Avatar/Layers/Accessories/Gloves
+    layerTint: {r: 0.41412687, g: 0.28641465, b: 0.0025400212, a: 1}
+  - layerPath: Avatar/Layers/Top/Tucked T-Shirt
+    layerTint: {r: 0.15687351, g: 0.14783986, b: 0.14783986, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.1515111, g: 0.1515111, b: 0.1515111, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/CombatBoots/CombatBoots
+    color: {r: 0.37801886, g: 0.28045702, b: 0.078161, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.091817096, g: 0.091817096, b: 0.091817096, a: 1}
+  - path: Avatar/Accessories/Chest/BulletproofVest/BulletproofVest
+    color: {r: 0.57563186, g: 0.42587537, b: 0.13826907, a: 1}
+  - path: Avatar/Accessories/Head/Cap/Cap
+    color: {r: 0.2966151, g: 0.6396234, b: 0.1393812, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Head/Oakleys/Oakleys
+    color: {r: 0.32371908, g: 0.4805625, b: 0.12614568, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Stan_Combined

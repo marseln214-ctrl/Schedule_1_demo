@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd23cb427eeeddc34843668dba16fd28, type: 3}
+  m_Name: LiquidBikerCrank
+  m_EditorClassIdentifier:
+  Name: Biker Crank (Liquid)
+  Description: The 'Biker Crank' methamphetamine variant in liquid form. Use a drying oven to bake into solid form.
+  ID: liquidbikercrank
+  Icon: {fileID: 21300000, guid: 60bbc5f0d28908f47bfd643711da3a2a, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114865083098282403, guid: 7ec35dc169c95f147a6495e451e97e68, type: 2}
+  CustomItemUI: {fileID: 114933633794645597, guid: 914a9a392cb1d0841ab5208f2a17e0d8, type: 2}
+  CustomInfoContent: {fileID: 114378039737944440, guid: f4824b7fcfc7f144ba8415b40558b4e2, type: 2}
+  legalStatus: 4
+  BasePurchasePrice: 10
+  ShopCategories: []
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114891387016303326, guid: 7d6deecb956cc2c4e90f3927e5de5e2e, type: 2}
+  StationItem: {fileID: 114841095860436461, guid: e31d567aff6864f489ecaebc1ad627ab, type: 2}
+  DefaultQuality: 2
+  StaticLiquidColor: {r: 0.6792453, g: 0.5069364, b: 0.44535422, a: 1}
+  LiquidVolumeColor: {r: 0.7169812, g: 0.47491297, b: 0.38216448, a: 0.5019608}
+  PourParticlesColor: {r: 0.7264151, g: 0.4936867, b: 0.40775186, a: 1}
+  CookableLiquidColor: {r: 0.754717, g: 0.5432532, b: 0.45923817, a: 0.3529412}
+  CookableSolidColor: {r: 0.8207547, g: 0.47919983, b: 0.36779103, a: 1}

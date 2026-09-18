@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_MentorIntro
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: Hey there buddy, it's your favourite incarcerated Uncle! I had my boy sneak a phone in here up his ass for me, so I can give you some advice.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: 'You owe some cash to some mean fellas, and you''ve only got a few days before they catch up to ya. Lucky for you, I''ve got some experience in this field. '
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: 'We''ll make enough money to pay those guys off, and then we can focus on getting some real operations started. '
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: You've already got some equipment set up in the RV. Head over to the hardware store and grab the rest of the supplies for your first grow.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Oh right, you probably ain't familiar with this town - welcome to charming Hyland Point. You can view a map on your <h1>phone</h>. Press <Input_TogglePhone> to view it.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

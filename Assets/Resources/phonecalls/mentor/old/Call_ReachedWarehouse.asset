@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_ReachedWarehouse
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: Welcome to the warehouse, everything you'll need in your criminal career can be found here.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Over by the storage racks is the local <h1>merchant</h> - he'll sell you everything you need to run a proud and proper underworld empire.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Up the stairs in the office is the local <h1>fixer</h> - he's the guy to talk to if you're looking to hire employees.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: For now, just grab an <h1>OG Kush seed</h>. Head on over to the merchant and purchase it.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

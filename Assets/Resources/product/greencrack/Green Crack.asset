@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6f569a841511799173febbc4e7e0e0, type: 3}
+  m_Name: Green Crack
+  m_EditorClassIdentifier:
+  Name: Green Crack
+  Description: A potent, highly energizing strain that leaves you with a focussed buzz.
+  ID: greencrack
+  Icon: {fileID: 21300000, guid: 392ca62ed9edea549aca8f2921c289a6, type: 2}
+  Category: 0
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114888513481897978, guid: 44d6c29dd103df54baea0e73d34be9b1, type: 2}
+  CustomItemUI: {fileID: 114933633794645597, guid: 914a9a392cb1d0841ab5208f2a17e0d8, type: 2}
+  CustomInfoContent: {fileID: 114979911201452052, guid: 1fbf27c5011aff245b5c56f6bd5f2218, type: 2}
+  legalStatus: 2
+  BasePurchasePrice: 10
+  ShopCategories: []
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114498192566489480, guid: 6b48b9a93de9efb42bc740ccf5b5da7f, type: 2}
+  StationItem: {fileID: 114813271915820231, guid: 8e4bf412462e7d545bef7a79628c1980, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: 85327ed95aebbaf4eb9a01a33e77f4cb, type: 2}
+  DrugTypes:
+  - DrugType: 0
+  LawIntensityChange: 1
+  BasePrice: 35
+  MarketValue: 46
+  FunctionalProduct: {fileID: 114187319213897556, guid: b4ad4041b823acd469acfe0d63efa968, type: 2}
+  EffectsDuration: 180
+  BaseAddictiveness: 0
+  ValidPackaging:
+  - {fileID: 11400000, guid: 5ad7f1f50e6c08c44aeb53fa7836aef2, type: 2}
+  - {fileID: 11400000, guid: 594f0f26f66f2d448b4d0dd1a35da431, type: 2}
+  - {fileID: 11400000, guid: 71888f22fac4319468bc9f0f5990a2f3, type: 2}
+  MainMat: {fileID: 2100000, guid: 5243bbae250017d4cbaa4dabaff80d73, type: 2}
+  SecondaryMat: {fileID: 2100000, guid: a61f1d8f7b183d842a257496293b711c, type: 2}
+  LeafMat: {fileID: 2100000, guid: c53ad056ed59b44439d6dbb2cf78f6b2, type: 2}
+  StemMat: {fileID: 2100000, guid: 337e4d0272d64884caf7263b6b41c4a8, type: 2}

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Jeremy
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.9358095, g: 0.73619455, b: 0.63222843, a: 1}
+  Height: 1.035
+  Gender: 0
+  Weight: 0.809375
+  HairPath: Avatar/Hair/Receding/Receding
+  HairColor: {r: 0.44642887, g: 0.4134634, b: 0.38285264, a: 1}
+  EyebrowScale: 0.95625
+  EyebrowThickness: 1.7125
+  EyebrowRestingHeight: -0.13125002
+  EyebrowRestingAngle: 2.1562493
+  LeftEyeLidColor: {r: 0.85882354, g: 0.67058825, b: 0.57254905, a: 1}
+  RightEyeLidColor: {r: 0.85882354, g: 0.67058825, b: 0.57254905, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.35625
+    bottomLidOpen: 0.21875
+  RightEyeRestingState:
+    topLidOpen: 0.35625
+    bottomLidOpen: 0.21875
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_SmugPout
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.8387518}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/FlannelButtonup
+    layerTint: {r: 0.82366073, g: 0.86660886, b: 1, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.35365513, g: 0.46605352, b: 0.58035713, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/DressShoes/DressShoes
+    color: {r: 0.32941177, g: 0.24705882, b: 0.17254902, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.15178633, g: 0.15178633, b: 0.15178633, a: 1}
+  - path:
+    color: {r: 0.60714287, g: 0.47560608, b: 0.29408485, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Jeremy_Combined

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc829d69add9d1225f41f208b02d29, type: 3}
+  m_Name: HorseSemen
+  m_EditorClassIdentifier:
+  Name: Horse Semen
+  Description: A big jug of ethically sourced horse semen.
+  ID: horsesemen
+  Icon: {fileID: 21300000, guid: f83dba6e4f273944ca347b92b27f6e7d, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114225984549129057, guid: 9af03b41f2540e94f8e5235d6e84cc06, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 8
+  ShopCategories:
+  - Category: 6
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 2
+    Tier: 4
+  StoredItem: {fileID: 114910607993452426, guid: 8521ac11351102e4497a11c973844853, type: 2}
+  StationItem: {fileID: 114970135186134113, guid: c00afbddffbd55a458235fbc863587f1, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: eeeecc319955e8a439fa0ece16912926, type: 2}

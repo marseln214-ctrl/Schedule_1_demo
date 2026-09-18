@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: TestDialogue
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 2944b2ca-35cb-4c33-a73a-21ce526026f0
+    BaseChoiceOrOptionGUID: 225cdfaa-8e98-4120-a4b9-6baf4ed39ff3
+    TargetNodeGuid: 9fcbf832-5b58-42c1-a01b-4e06a171a42f
+  - BaseDialogueOrBranchNodeGuid: 4dba86f0-c1e2-4c48-a50e-de53964800b5
+    BaseChoiceOrOptionGUID: 91a63df0-6d3a-482e-8891-a109cdb8ef14
+    TargetNodeGuid: 4d57a1f9-9158-490a-9782-0f807e1dae44
+  - BaseDialogueOrBranchNodeGuid: 2944b2ca-35cb-4c33-a73a-21ce526026f0
+    BaseChoiceOrOptionGUID: 2901771d-cb6d-4746-8555-b03e50fbfe10
+    TargetNodeGuid: 8d7038de-7816-4077-9f69-9e440c7160f6
+  - BaseDialogueOrBranchNodeGuid: 8d7038de-7816-4077-9f69-9e440c7160f6
+    BaseChoiceOrOptionGUID: 06ea6cf0-45aa-4b59-a22e-3c3920deed87
+    TargetNodeGuid: 4dba86f0-c1e2-4c48-a50e-de53964800b5
+  - BaseDialogueOrBranchNodeGuid: 8d7038de-7816-4077-9f69-9e440c7160f6
+    BaseChoiceOrOptionGUID: 8b2a63d7-f900-41fb-b0cc-de93998538cb
+    TargetNodeGuid: 720b5e3a-c8b8-454c-a8b5-2f6d7edc65ba
+  - BaseDialogueOrBranchNodeGuid: e58201b0-dbe7-409f-8cd0-1faa5c9a194a
+    BaseChoiceOrOptionGUID: 86f8cc0c-0ff2-446a-b161-a97d060a98ca
+    TargetNodeGuid: 2944b2ca-35cb-4c33-a73a-21ce526026f0
+  - BaseDialogueOrBranchNodeGuid: c63f69b3-471b-48ed-afa9-5ba585c80477
+    BaseChoiceOrOptionGUID: d53e21ba-8c79-487c-9c33-3a811e4a365f
+    TargetNodeGuid: e58201b0-dbe7-409f-8cd0-1faa5c9a194a
+  - BaseDialogueOrBranchNodeGuid: c63f69b3-471b-48ed-afa9-5ba585c80477
+    BaseChoiceOrOptionGUID: ea0699fb-e689-4241-8cd8-df50b477231f
+    TargetNodeGuid: 2944b2ca-35cb-4c33-a73a-21ce526026f0
+  DialogueNodeData:
+  - Guid: 9fcbf832-5b58-42c1-a01b-4e06a171a42f
+    DialogueText: Absolutely fantastic, cheers mate.
+    DialogueNodeLabel:
+    Position: {x: 838, y: 93}
+    choices: []
+    VoiceLine: 0
+  - Guid: 4d57a1f9-9158-490a-9782-0f807e1dae44
+    DialogueText: Now piss off
+    DialogueNodeLabel:
+    Position: {x: 1599, y: 361}
+    choices: []
+    VoiceLine: 0
+  - Guid: 4dba86f0-c1e2-4c48-a50e-de53964800b5
+    DialogueText: Jeez mate, don't get your panties in a twist.
+    DialogueNodeLabel:
+    Position: {x: 1157, y: 466}
+    choices:
+    - Guid: 91a63df0-6d3a-482e-8891-a109cdb8ef14
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 720b5e3a-c8b8-454c-a8b5-2f6d7edc65ba
+    DialogueText: Understandable, have a great day.
+    DialogueNodeLabel:
+    Position: {x: 1207, y: 684}
+    choices: []
+    VoiceLine: 0
+  - Guid: 2944b2ca-35cb-4c33-a73a-21ce526026f0
+    DialogueText: Hello, my name is Jimmy Boogsdale, would you like to sell me some drugs?
+    DialogueNodeLabel:
+    Position: {x: 198, y: 321}
+    choices:
+    - Guid: 225cdfaa-8e98-4120-a4b9-6baf4ed39ff3
+      ChoiceText: Well of course!
+      ChoiceLabel: CHOICE_TEST
+    - Guid: 2901771d-cb6d-4746-8555-b03e50fbfe10
+      ChoiceText: Do I look like some sort of hoodlum to you?
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: e58201b0-dbe7-409f-8cd0-1faa5c9a194a
+    DialogueText: Whats the password?
+    DialogueNodeLabel: ENTRY
+    Position: {x: -293, y: 161}
+    choices:
+    - Guid: 2a46335a-05aa-4269-88ac-1ab6de34af93
+      ChoiceText: Idk bruh
+      ChoiceLabel:
+    - Guid: 86f8cc0c-0ff2-446a-b161-a97d060a98ca
+      ChoiceText: Cheetos
+      ChoiceLabel: CHOICE_PASSWORDGUESSED
+    VoiceLine: 0
+  BranchNodeData:
+  - Guid: 8d7038de-7816-4077-9f69-9e440c7160f6
+    BranchLabel: BRANCH_REJECTION
+    Position: {x: 768, y: 481}
+    options:
+    - Guid: 06ea6cf0-45aa-4b59-a22e-3c3920deed87
+    - Guid: 8b2a63d7-f900-41fb-b0cc-de93998538cb
+  - Guid: c63f69b3-471b-48ed-afa9-5ba585c80477
+    BranchLabel: BRANCH_CHECKPASS
+    Position: {x: -560, y: 449}
+    options:
+    - Guid: d53e21ba-8c79-487c-9c33-3a811e4a365f
+    - Guid: ea0699fb-e689-4241-8cd8-df50b477231f

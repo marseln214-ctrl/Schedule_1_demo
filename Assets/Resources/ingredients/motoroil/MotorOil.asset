@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc829d69add9d1225f41f208b02d29, type: 3}
+  m_Name: MotorOil
+  m_EditorClassIdentifier:
+  Name: Motor Oil
+  Description: Specially formulated oil used for lubricating the moving stuff in an engine.
+  ID: motoroil
+  Icon: {fileID: 21300000, guid: d2c0c41c848a367438a62699a686024a, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114555276480598853, guid: e66a8d9766fd41740996fb7fccc85c36, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 4
+  ShopCategories:
+  - Category: 6
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 1
+    Tier: 4
+  StoredItem: {fileID: 114265912726691684, guid: 31ab256f0f246e14c97a1e5cab3f537e, type: 2}
+  StationItem: {fileID: 114564992953200469, guid: 927fc5bd1e031a44bb878202ce27ac63, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: 0a08da85963f58249a335349eb804c8b, type: 2}

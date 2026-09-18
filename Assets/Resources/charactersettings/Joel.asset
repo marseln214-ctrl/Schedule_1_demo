@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Joel
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.74946505, g: 0.5399775, b: 0.37012276, a: 1}
+  Height: 1.05
+  Gender: 0
+  Weight: 0.26875
+  HairPath: Avatar/Hair/Spiky/Spiky
+  HairColor: {r: 0.30150682, g: 0.21667425, b: 0.13790116, a: 1}
+  EyebrowScale: 1.1
+  EyebrowThickness: 1.440625
+  EyebrowRestingHeight: 0.21875
+  EyebrowRestingAngle: 4.406251
+  LeftEyeLidColor: {r: 0.70980394, g: 0.5647059, b: 0.44705883, a: 1}
+  RightEyeLidColor: {r: 0.70980394, g: 0.5647059, b: 0.44705883, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.334375
+    bottomLidOpen: 0.4625
+  RightEyeRestingState:
+    topLidOpen: 0.334375
+    bottomLidOpen: 0.4625
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 0.8839286, b: 0.8839286, a: 1}
+  PupilDilation: 0.528125
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_NeutralPout
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 0.6962233}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/T-Shirt
+    layerTint: {r: 0.19642869, g: 0.19642869, b: 0.19642869, a: 1}
+  - layerPath: Avatar/Layers/Bottom/CargoPants
+    layerTint: {r: 0.1619844, g: 0.34821433, b: 0.096380755, a: 0.92610836}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Sneakers/Sneakers
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Head/BucketHat/BucketHat
+    color: {r: 0.09845349, g: 0.24018972, b: 0.5803572, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 0.9196428, g: 0.76508147, b: 0, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Joel_Combined

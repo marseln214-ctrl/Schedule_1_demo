@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Ray
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.8209116, g: 0.6197873, b: 0.45671353, a: 1}
+  Height: 1.0104687
+  Gender: 0
+  Weight: 0
+  HairPath: Avatar/Hair/Peaked/Peaked
+  HairColor: {r: 0.6964289, g: 0.54426897, b: 0, a: 1}
+  EyebrowScale: 1
+  EyebrowThickness: 1.077922
+  EyebrowRestingHeight: -1
+  EyebrowRestingAngle: 2.4350648
+  LeftEyeLidColor: {r: 0.70980394, g: 0.5647059, b: 0.44705883, a: 1}
+  RightEyeLidColor: {r: 0.70980394, g: 0.5647059, b: 0.44705883, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.24025969
+    bottomLidOpen: 0.14285715
+  RightEyeRestingState:
+    topLidOpen: 0.24025969
+    bottomLidOpen: 0.14285715
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 0.89285713, b: 0.89285713, a: 1}
+  PupilDilation: 0.43571427
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_SmugPout
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.51034456}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.8305417}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/Buttonup
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.16071434, g: 0.16071434, b: 0.16071434, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/DressShoes/DressShoes
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.07144012, g: 0.07144012, b: 0.07144012, a: 1}
+  - path: Avatar/Accessories/Chest/Blazer/Blazer
+    color: {r: 0.14670888, g: 0.14670888, b: 0.14670888, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Ray_Combined

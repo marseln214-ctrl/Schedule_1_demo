@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Botanist_NullDestinationPots
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 8eb43b72-dacd-4b27-90e6-c27ecefa25b8
+    BaseChoiceOrOptionGUID: 540a7239-5940-449c-a17d-4f7a17c05f0c
+    TargetNodeGuid: 463eed03-6989-4322-ab00-e9b9a575b382
+  DialogueNodeData:
+  - Guid: 8eb43b72-dacd-4b27-90e6-c27ecefa25b8
+    DialogueText: There are plants ready for harvest, but they're missing a destination. Each pot must have a selected destination so I know where to move the harvested product.
+    DialogueNodeLabel: ENTRY
+    Position: {x: 154, y: 229}
+    choices:
+    - Guid: 540a7239-5940-449c-a17d-4f7a17c05f0c
+      ChoiceText: How do I specify the destination for each pot?
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 463eed03-6989-4322-ab00-e9b9a575b382
+    DialogueText: You can use your management clipboard on each pot to assign it's destination.
+    DialogueNodeLabel:
+    Position: {x: 1194, y: 437}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData: []

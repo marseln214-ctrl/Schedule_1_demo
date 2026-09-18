@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Mick
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.857138, g: 0.68829757, b: 0.55139995, a: 1}
+  Height: 0.98828125
+  Gender: 0
+  Weight: 0.590625
+  HairPath: Avatar/Hair/Balding/Balding
+  HairColor: {r: 0.7490196, g: 0.54901963, b: 0, a: 1}
+  EyebrowScale: 1.15625
+  EyebrowThickness: 1.4687502
+  EyebrowRestingHeight: 1
+  EyebrowRestingAngle: 2.7187495
+  LeftEyeLidColor: {r: 0.857138, g: 0.68829757, b: 0.55139995, a: 1}
+  RightEyeLidColor: {r: 0.857138, g: 0.68829757, b: 0.55139995, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.525
+    bottomLidOpen: 0.2375
+  RightEyeRestingState:
+    topLidOpen: 0.525
+    bottomLidOpen: 0.2375
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_Neutral
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.6334974}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/FlannelButtonup
+    layerTint: {r: 0.7678572, g: 0.2279577, b: 0.2279577, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.26839527, g: 0.39865994, b: 0.5982143, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/CombatBoots/CombatBoots
+    color: {r: 0.30358154, g: 0.22166276, b: 0.08199417, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.3561533, g: 0.22450079, b: 0.12799262, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Head/CowboyHat/CowboyHat
+    color: {r: 0.9251709, g: 0.9251709, b: 0.9251709, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Head/Oakleys/Oakleys
+    color: {r: 0.20758933, g: 0.32521912, b: 1, a: 1}
+  - path: Avatar/Accessories/Neck/GoldChain/GoldChain
+    color: {r: 1, g: 0.77268326, b: 0.17187512, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/FacialHair/Chevron/Chevron
+    color: {r: 0.7490196, g: 0.54901963, b: 0, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Mick_Combined

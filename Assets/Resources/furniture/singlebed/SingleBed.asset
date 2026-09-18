@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0648b2367bab503b89767a44e44ae0a, type: 3}
+  m_Name: SingleBed
+  m_EditorClassIdentifier:
+  Name: Bed
+  Description: A cozy single bed to slumber in.
+  ID: bed
+  Icon: {fileID: 21300000, guid: c79e30d6d67d02c429a8c78a78c0dd0e, type: 2}
+  Category: 4
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114605928411334956, guid: 49e95c640835de9429b92fdc1d73069d, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 150
+  ShopCategories:
+  - Category: 1
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114459499014527224, guid: 65c2ae7cc432d4b418d7c1de4eee94d0, type: 2}
+  StationItem: {fileID: 0}
+  BuiltItem: {fileID: 114132476562458075, guid: af1beaf61e85dd34686b041dcf1dfcb4, type: 2}
+  BuildSoundType: 1

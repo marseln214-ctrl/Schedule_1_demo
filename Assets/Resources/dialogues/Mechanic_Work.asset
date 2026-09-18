@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Mechanic_Work
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: e8d3d1a7-621c-44d2-a0c6-927980b0561d
+    BaseChoiceOrOptionGUID: f9316459-54e4-4881-9583-7830d663d5ea
+    TargetNodeGuid: 25748bd9-39e7-4b00-94c1-1bfa5f53839a
+  - BaseDialogueOrBranchNodeGuid: 25748bd9-39e7-4b00-94c1-1bfa5f53839a
+    BaseChoiceOrOptionGUID: 722fa4d0-e4f0-49df-921b-1b4b505f3b99
+    TargetNodeGuid: b9613fc9-79e5-4456-a035-20c204c2c106
+  - BaseDialogueOrBranchNodeGuid: 25748bd9-39e7-4b00-94c1-1bfa5f53839a
+    BaseChoiceOrOptionGUID: d535b373-0d04-4666-8996-e0276f5b223a
+    TargetNodeGuid: c2288c8c-72f8-4523-a322-27c5f32a749c
+  - BaseDialogueOrBranchNodeGuid: e8d3d1a7-621c-44d2-a0c6-927980b0561d
+    BaseChoiceOrOptionGUID: 86ea0b51-597e-4ffe-8c63-5651d82ca801
+    TargetNodeGuid: b7da6c93-5423-44e4-95ad-7071954adf47
+  - BaseDialogueOrBranchNodeGuid: b7da6c93-5423-44e4-95ad-7071954adf47
+    BaseChoiceOrOptionGUID: ed722665-576d-4b55-b6eb-59eccf77a6e1
+    TargetNodeGuid: 9c04e1c0-d21f-43c1-9906-4bf476731c79
+  DialogueNodeData:
+  - Guid: e8d3d1a7-621c-44d2-a0c6-927980b0561d
+    DialogueText: Hey there buddy, what can I do for you?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 467, y: 297}
+    choices:
+    - Guid: 86ea0b51-597e-4ffe-8c63-5651d82ca801
+      ChoiceText: I'd like to repaint my vehicle
+      ChoiceLabel: CUSTOMIZE
+    - Guid: f9316459-54e4-4881-9583-7830d663d5ea
+      ChoiceText: My car is stuck
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 6d98aad5-ca6c-4167-8756-6ae7f80a1d7a
+    DialogueText: Alright, your vehicle has been moved to the nearest road.
+    DialogueNodeLabel: FINALIZE_RECOVER
+    Position: {x: 552, y: 762}
+    choices: []
+    VoiceLine: 0
+  - Guid: 9c04e1c0-d21f-43c1-9906-4bf476731c79
+    DialogueText: Sorry, you've got to park your vehicle in the shop before I can work on it.
+    DialogueNodeLabel:
+    Position: {x: 1376, y: 9}
+    choices: []
+    VoiceLine: 0
+  - Guid: c2288c8c-72f8-4523-a322-27c5f32a749c
+    DialogueText: Sorry, it doesn't seem like you've driven any vehicles recently...
+    DialogueNodeLabel:
+    Position: {x: 1376, y: 330}
+    choices: []
+    VoiceLine: 0
+  - Guid: b9613fc9-79e5-4456-a035-20c204c2c106
+    DialogueText: These are the vehicles you last drove - which would you like to recover?
+    DialogueNodeLabel: CHOOSE_VEHICLE
+    Position: {x: 1376, y: 635}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData:
+  - Guid: 25748bd9-39e7-4b00-94c1-1bfa5f53839a
+    BranchLabel: BRANCH_CHECKRECENT
+    Position: {x: 961, y: 539}
+    options:
+    - Guid: d535b373-0d04-4666-8996-e0276f5b223a
+    - Guid: 722fa4d0-e4f0-49df-921b-1b4b505f3b99
+  - Guid: b7da6c93-5423-44e4-95ad-7071954adf47
+    BranchLabel: BRANCH_CHECKMOD
+    Position: {x: 1004, y: 97}
+    options:
+    - Guid: ed722665-576d-4b55-b6eb-59eccf77a6e1
+    - Guid: 9beff6c1-0e0d-4e2c-8a62-e7121c9cdc22

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Jack
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.5449387, g: 0.41411498, b: 0.3080417, a: 1}
+  Height: 0.9421094
+  Gender: 0
+  Weight: 0.640625
+  HairPath: Avatar/Hair/Balding/Balding
+  HairColor: {r: 0.22352941, g: 0.16078432, b: 0.101960786, a: 1}
+  EyebrowScale: 1
+  EyebrowThickness: 1
+  EyebrowRestingHeight: 0
+  EyebrowRestingAngle: 0
+  LeftEyeLidColor: {r: 0.5449387, g: 0.41411498, b: 0.3080417, a: 1}
+  RightEyeLidColor: {r: 0.5449387, g: 0.41411498, b: 0.3080417, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.378125
+    bottomLidOpen: 0.18125
+  RightEyeRestingState:
+    topLidOpen: 0.378125
+    bottomLidOpen: 0.18125
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_SlightSmile
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/FacialHair_Stubble
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.5596057}
+  - layerPath: Avatar/Layers/Face/TiredEyes
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.74022967}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/RolledButtonup
+    layerTint: {r: 0.4437381, g: 0.54688776, b: 0.6517858, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.41071433, g: 0.32903686, b: 0.15493467, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Sneakers/Sneakers
+    color: {r: 0.8660715, g: 0.7609969, b: 0.5818918, a: 1}
+  - path:
+    color: {r: 0.16071434, g: 0.16071434, b: 0.16071434, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Head/SmallRoundGlasses/SmallRoundGlasses
+    color: {r: 0.77678573, g: 0.5501114, b: 0.20286593, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/FacialHair/Chevron/Chevron
+    color: {r: 0.22352941, g: 0.16078432, b: 0.101960786, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Jack_Combined

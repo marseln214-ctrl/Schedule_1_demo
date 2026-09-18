@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60b881744183abd561af3616b4ad1fa6, type: 3}
+  m_Name: ExtraLongLifeSoil
+  m_EditorClassIdentifier:
+  Name: Extra Long-Life Soil
+  Description: Extra long-lasting soil that can be used to grow 3 plants before expiring.
+  ID: extralonglifesoil
+  Icon: {fileID: 21300000, guid: 30e500b5707aab344a411875418fc2c1, type: 2}
+  Category: 2
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114596693127649116, guid: 5f92e44a1803c484688a7415b3f914e6, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 60
+  ShopCategories:
+  - Category: 2
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 1
+    Tier: 3
+  StoredItem: {fileID: 114764838539708525, guid: 5f349c0dcb6d46843a6b05acbffb9098, type: 2}
+  StationItem: {fileID: 0}
+  SoilQuality: 0
+  DrySoilMat: {fileID: 2100000, guid: 981a5a01a4aed6248bd377b02309223c, type: 2}
+  WetSoilMat: {fileID: 2100000, guid: 1dabba6406eefdd4cbd660a7e5ee1ed2, type: 2}
+  ParticleColor: {r: 0.33396402, g: 0.2917408, b: 0.41509432, a: 1}
+  Uses: 3

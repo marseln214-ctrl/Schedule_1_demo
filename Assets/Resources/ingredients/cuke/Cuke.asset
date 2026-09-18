@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc829d69add9d1225f41f208b02d29, type: 3}
+  m_Name: Cuke
+  m_EditorClassIdentifier:
+  Name: Cuke
+  Description: A refreshing can of Cuke that leaves you feeling energized. It's heaven in a can.
+  ID: cuke
+  Icon: {fileID: 21300000, guid: 322467f2fe7d64449bd411f072f28cb2, type: 2}
+  Category: 7
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 0.3254902, b: 0.3254902, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114671481435889806, guid: d65e92813c8340c46abefa12eedcfcec, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 2
+  ShopCategories:
+  - Category: 6
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114794800140086221, guid: 2a05f9f937895a84ba5f505231a47b6c, type: 2}
+  StationItem: {fileID: 114491567234773231, guid: c62827640c0c0de4f974ba72182d3161, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: 85327ed95aebbaf4eb9a01a33e77f4cb, type: 2}

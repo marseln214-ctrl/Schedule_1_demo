@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_AfterFirstDeposit
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: You might've noticed that there's a daily deposit limit on the ATM. Yo prevent lookin' too suspicious to any prying eyes, you can only deposit a limited amount of cash each day.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: If you need to deposit more cash, you'll need to purchase yourself a <h1>laundering business</h> and launder it.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Don't sorry yourself about that now - that'll be a later problem. For now, just get to the hardware store and pick up the supplies for another plant. Maybe also grab some <h1>Speed Grow</h> if you want...
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

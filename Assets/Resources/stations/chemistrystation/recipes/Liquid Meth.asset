@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5ba8c31eac95d2b41c04d2c839c7c4, type: 3}
+  m_Name: Liquid Meth
+  m_EditorClassIdentifier:
+  IsDiscovered: 0
+  RecipeTitle: Liquid Meth
+  Unlocked: 1
+  Ingredients:
+  - Items:
+    - {fileID: 11400000, guid: db958675cffa0634fbcbf0a27e0d7bcd, type: 2}
+    - {fileID: 11400000, guid: 7a35def7d9b74234a82c16c34ffb2a6b, type: 2}
+    - {fileID: 11400000, guid: e239f9d40dbe2be438308410993b9ec0, type: 2}
+    Quantity: 1
+  - Items:
+    - {fileID: 11400000, guid: 129171f75d6d8a34b81a9fd0495177df, type: 2}
+    - {fileID: 11400000, guid: a8a35fa9c4209df4aa278a6b9052d2ea, type: 2}
+    - {fileID: 11400000, guid: 7962ad8432bcb06448f7c6f37255c30b, type: 2}
+    Quantity: 1
+  - Items:
+    - {fileID: 11400000, guid: 2315aa206a86c5a41802798e021f91d7, type: 2}
+    Quantity: 1
+  Product:
+    Item: {fileID: 11400000, guid: 350255298d497b24ea455be2563f1543, type: 2}
+    Quantity: 1
+  FinalLiquidColor: {r: 0.8117647, g: 0.7221381, b: 0.3647059, a: 0.78431374}
+  CookTime_Mins: 480
+  CookTemperature: 250
+  CookTemperatureTolerance: 25
+  QualityCalculationMethod: 0

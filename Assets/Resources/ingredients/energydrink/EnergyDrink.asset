@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc829d69add9d1225f41f208b02d29, type: 3}
+  m_Name: EnergyDrink
+  m_EditorClassIdentifier:
+  Name: Energy Drink
+  Description: Tasty energy drink filled with lots of yummy chemicals to make you feel refreshed. Removes the effects of drugs when consumed.
+  ID: energydrink
+  Icon: {fileID: 21300000, guid: 90e26f474548fd0409afcf9c0d31acb1, type: 2}
+  Category: 7
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114592071343785621, guid: fc3af051591299d4c8cf5d43b623b928, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 4
+  ShopCategories:
+  - Category: 6
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 1
+    Tier: 2
+  StoredItem: {fileID: 114426936606524731, guid: 47323da91d88a8242bc13dbf5aecc2c4, type: 2}
+  StationItem: {fileID: 114804511817791678, guid: 7a71b6a2778439c4e9ca7828291d3f15, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: d4d08a81aa8df574db8fd2a967733655, type: 2}

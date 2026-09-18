@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_NelsonIntro
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: Hey buddy, looks like you're in a bit of trouble. Lucky for you, your favourite incarcerated Uncle can give you a hand.
+    OnStartTriggers:
+    - Conditions:
+        EvaluationType: 0
+        ConditionList: []
+        QuestConditionList:
+        - CheckQuestState: 0
+          QuestName: Getting Started
+          QuestState: 0
+          CheckQuestEntryState: 1
+          QuestEntryIndex: 0
+          QuestEntryState: 1
+      onEvaluateTrueVariableSetters: []
+      onEvaluateTrueQuestSetters:
+      - QuestName: Getting Started
+        SetQuestState: 0
+        QuestState: 0
+        SetQuestEntryState: 1
+        QuestEntryIndex: 0
+        QuestEntryState: 2
+      onEvaluateTrue:
+        m_PersistentCalls:
+          m_Calls: []
+      onEvaluateFalseVariableSetters: []
+      onEvaluateFalseQuestSetters: []
+      onEvaluateFalse:
+        m_PersistentCalls:
+          m_Calls: []
+    OnDoneTriggers: []
+  - Text: Back before I was in the big house, I used to live out there in Hyland Point. Not the nicest town around, but plenty of opportunity for a dru-... someone in your line of work.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: There's probably some of my cash stashed not far from you. It isn't much, but it should be enough to get you going. You can find it <h1>near the skatepark</b>.
+    OnStartTriggers: []
+    OnDoneTriggers:
+    - Conditions:
+        EvaluationType: 0
+        ConditionList: []
+        QuestConditionList:
+        - CheckQuestState: 0
+          QuestName: Getting Started
+          QuestState: 0
+          CheckQuestEntryState: 1
+          QuestEntryIndex: 1
+          QuestEntryState: 1
+      onEvaluateTrueVariableSetters: []
+      onEvaluateTrueQuestSetters:
+      - QuestName: Getting Started
+        SetQuestState: 0
+        QuestState: 0
+        SetQuestEntryState: 1
+        QuestEntryIndex: 1
+        QuestEntryState: 2
+      onEvaluateTrue:
+        m_PersistentCalls:
+          m_Calls: []
+      onEvaluateFalseVariableSetters: []
+      onEvaluateFalseQuestSetters: []
+      onEvaluateFalse:
+        m_PersistentCalls:
+          m_Calls: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

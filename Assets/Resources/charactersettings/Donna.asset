@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Donna
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.687509, g: 0.4571651, b: 0.27039978, a: 1}
+  Height: 0.95382816
+  Gender: 0.709375
+  Weight: 0.475
+  HairPath: Avatar/Hair/Bun/Bun
+  HairColor: {r: 0.16964321, g: 0.13847329, b: 0.07126531, a: 1}
+  EyebrowScale: 1.05
+  EyebrowThickness: 0.709375
+  EyebrowRestingHeight: 0.9125
+  EyebrowRestingAngle: 0
+  LeftEyeLidColor: {r: 0.687509, g: 0.4571651, b: 0.27039978, a: 1}
+  RightEyeLidColor: {r: 0.687509, g: 0.4571651, b: 0.27039978, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.3375
+    bottomLidOpen: 0.3875
+  RightEyeRestingState:
+    topLidOpen: 0.3375
+    bottomLidOpen: 0.3875
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.715625
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_Neutral
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 0.44466323}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/V-Neck
+    layerTint: {r: 0.42027536, g: 0.2620759, b: 0.5617703, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.19569893, g: 0.19569893, b: 0.19569893, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Sneakers/Sneakers
+    color: {r: 0.67857146, g: 0.67857146, b: 0.67857146, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Hands/Polex/Polex
+    color: {r: 0.2035676, g: 0.2035676, b: 0.2035676, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Donna_Combined

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: StanGreeting
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: a6b7e102-6f17-4bac-92ca-32c0b5cffedf
+    BaseChoiceOrOptionGUID: bde67d91-d643-42e4-90d9-24328a830415
+    TargetNodeGuid: 5ab070c2-f16e-4673-8ca9-2852767b789c
+  - BaseDialogueOrBranchNodeGuid: 5ab070c2-f16e-4673-8ca9-2852767b789c
+    BaseChoiceOrOptionGUID: ab07d064-ae57-4b68-a059-330881ee938e
+    TargetNodeGuid: 7d0f65ec-0286-4955-9e88-621c826ed3db
+  DialogueNodeData:
+  - Guid: a6b7e102-6f17-4bac-92ca-32c0b5cffedf
+    DialogueText: Howdy buddy. If you’re looking for protection, you’ve come to the right place.
+    DialogueNodeLabel: ENTRY
+    Position: {x: 81, y: 481}
+    choices:
+    - Guid: bde67d91-d643-42e4-90d9-24328a830415
+      ChoiceText: What do you sell?
+      ChoiceLabel:
+    - Guid: e42545c6-9a1b-446a-9b78-32206250dc59
+      ChoiceText: Thanks
+      ChoiceLabel:
+    VoiceLine: 1
+  - Guid: 5ab070c2-f16e-4673-8ca9-2852767b789c
+    DialogueText: Melee weapons - blunt and sharp, and of course, firearms. Ammo too. I get more stuff in stock every now and then.
+    DialogueNodeLabel:
+    Position: {x: 668, y: 420}
+    choices:
+    - Guid: ab07d064-ae57-4b68-a059-330881ee938e
+      ChoiceText: Are these weapons legal?
+      ChoiceLabel:
+    - Guid: 808d739a-1418-4673-a87c-9f657d386571
+      ChoiceText: Thanks
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 7d0f65ec-0286-4955-9e88-621c826ed3db
+    DialogueText: Yeahhhh, more or less. Most of them are probably not completely non-illegal… what’re you askin' for anywho?
+    DialogueNodeLabel:
+    Position: {x: 1465, y: 375}
+    choices:
+    - Guid: d19d195c-82d2-4daf-8f44-59eaada07fbb
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 19
+  BranchNodeData: []

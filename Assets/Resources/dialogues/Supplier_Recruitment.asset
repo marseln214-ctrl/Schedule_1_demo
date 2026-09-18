@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Supplier_Recruitment
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: e53bd440-29c4-4dce-a5cd-7415dcda83f8
+    BaseChoiceOrOptionGUID: 4854545e-b2f9-4cba-9703-94e68c058352
+    TargetNodeGuid: dbffb23a-034f-4d0f-9815-36cc247335b6
+  DialogueNodeData:
+  - Guid: e53bd440-29c4-4dce-a5cd-7415dcda83f8
+    DialogueText: Alright, I'll be a dealer for you but there is a <SIGNING_FEE> signing fee, and I'll take a <CUT> cut of each sale. We got a deal?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 416, y: 458}
+    choices:
+    - Guid: 4854545e-b2f9-4cba-9703-94e68c058352
+      ChoiceText: Deal (<SIGNING_FEE>)
+      ChoiceLabel: CONFIRM
+    - Guid: 1575094b-13a3-4d54-9c06-136b571f8c51
+      ChoiceText: Nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: dbffb23a-034f-4d0f-9815-36cc247335b6
+    DialogueText: Thank you. Bring me some product and assign some customers to me, and I'll get to work.
+    DialogueNodeLabel:
+    Position: {x: 1313, y: 566}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData: []

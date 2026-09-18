@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Worker_Generic
+  m_EditorClassIdentifier:
+  NodeLinks: []
+  DialogueNodeData:
+  - Guid: d619c69a-f4f3-4b8b-ac62-36a6e0242fd9
+    DialogueText: Hey, boss.
+    DialogueNodeLabel: ENTRY
+    Position: {x: 683, y: 386}
+    choices:
+    - Guid: 835bd294-596e-4d21-b7ad-835d67b3f04f
+      ChoiceText: I need to manage your schedule
+      ChoiceLabel: MANAGE_SCHEDULE
+    - Guid: 46fcef17-5503-4a8e-ad8a-b5353cdf3d65
+      ChoiceText: I need to trade some items with you
+      ChoiceLabel: TRADE_ITEMS
+    - Guid: ceb95846-9ea9-43e3-9924-37cc93a17274
+      ChoiceText: Nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  BranchNodeData: []

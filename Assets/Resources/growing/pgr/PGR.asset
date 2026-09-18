@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ebf705b0aab250f43b55343a2925cc8, type: 3}
+  m_Name: PGR
+  m_EditorClassIdentifier:
+  Name: PGR
+  Description: Plant growth regulator (PGR) will increase the yields of your plants, at the cost of quality.
+  ID: pgr
+  Icon: {fileID: 21300000, guid: afb08715701466f4cbf71517285e0f49, type: 2}
+  Category: 2
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114784988657927883, guid: 05081adfdc1459f48aafb49c7484720e, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 30
+  ShopCategories:
+  - Category: 2
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 0
+    Tier: 3
+  StoredItem: {fileID: 114927321862249552, guid: 7a7acd0d710931a4cbe8014caebff094, type: 2}
+  StationItem: {fileID: 0}
+  AdditivePrefab: {fileID: 114237649904952946, guid: d7c463e7a2500904da4a1e3309242b97, type: 2}

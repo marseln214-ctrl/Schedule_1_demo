@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_FirstContractCompleted_OLD
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: That's your first contract done! Kevin seems happy with the product, but more importantly, you've now got some cold hard cash.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: With each contract you complete, your relationship with the customer will improve. Increase a customer's loyalty enough, and they'll recommend you to their friends.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: You can view all potential customers in the <h1>'Contacts' app</h> on your phone.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: You're off to a solid start. Tomorrow we'll set up a new plant in the RV, so let's grab an OG Kush seed.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: For that, you'll have to pay a visit to <h1>the warehouse</h>. It's the local hub of anything less-than-legal. It's only open from 6PM to 6AM, so head on over then.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

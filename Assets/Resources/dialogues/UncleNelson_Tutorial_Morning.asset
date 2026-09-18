@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: UncleNelson_Tutorial_Morning
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: d199987e-4463-4515-a168-67d1e4815286
+    BaseChoiceOrOptionGUID: 1138c4ac-fb7a-4df1-b61f-5560be3ad074
+    TargetNodeGuid: a52cf0bd-1dae-47ce-acd0-61a8ff3e8aec
+  - BaseDialogueOrBranchNodeGuid: a52cf0bd-1dae-47ce-acd0-61a8ff3e8aec
+    BaseChoiceOrOptionGUID: 62eb3390-20f5-4ef8-8f4d-b45d93fae528
+    TargetNodeGuid: 5359c462-3ad0-404e-8e3d-4c8d482cc764
+  - BaseDialogueOrBranchNodeGuid: 5359c462-3ad0-404e-8e3d-4c8d482cc764
+    BaseChoiceOrOptionGUID: 7cff218a-9b64-40f5-8e52-5cf97819fa1c
+    TargetNodeGuid: 5f6e35a9-27c8-45a9-9d63-660ded1af272
+  - BaseDialogueOrBranchNodeGuid: 5f6e35a9-27c8-45a9-9d63-660ded1af272
+    BaseChoiceOrOptionGUID: 39253fa4-f23f-470e-8479-1a333e111287
+    TargetNodeGuid: dacaa0c4-48a7-468c-8d35-f98b6df68f7c
+  DialogueNodeData:
+  - Guid: d199987e-4463-4515-a168-67d1e4815286
+    DialogueText: Morning buddy, lovely day ain't it?
+    DialogueNodeLabel: ENTRY
+    Position: {x: -145, y: 224}
+    choices:
+    - Guid: 1138c4ac-fb7a-4df1-b61f-5560be3ad074
+      ChoiceText: Sure is
+      ChoiceLabel:
+    VoiceLine: 1
+  - Guid: 5359c462-3ad0-404e-8e3d-4c8d482cc764
+    DialogueText: I've got some business with some fellas staying down at the motel, tell them you're here for Nelson's package. No need to pay for anything.
+    DialogueNodeLabel:
+    Position: {x: 675, y: 467}
+    choices:
+    - Guid: 7cff218a-9b64-40f5-8e52-5cf97819fa1c
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 5f6e35a9-27c8-45a9-9d63-660ded1af272
+    DialogueText: If you're lookin' to pick up any supplies for yourself, just throw 'em on my tab.
+    DialogueNodeLabel:
+    Position: {x: 1495, y: 601}
+    choices:
+    - Guid: 39253fa4-f23f-470e-8479-1a333e111287
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 14
+  - Guid: a52cf0bd-1dae-47ce-acd0-61a8ff3e8aec
+    DialogueText: If you're heading in to town for some deals, would you mind grabbing something for me?
+    DialogueNodeLabel:
+    Position: {x: 156, y: 343}
+    choices:
+    - Guid: 62eb3390-20f5-4ef8-8f4d-b45d93fae528
+      ChoiceText: Yep
+      ChoiceLabel:
+    VoiceLine: 6
+  - Guid: dacaa0c4-48a7-468c-8d35-f98b6df68f7c
+    DialogueText: Cheers buddy. Feel free to take my truck.
+    DialogueNodeLabel: END
+    Position: {x: 2036, y: 653}
+    choices: []
+    VoiceLine: 3
+  BranchNodeData: []

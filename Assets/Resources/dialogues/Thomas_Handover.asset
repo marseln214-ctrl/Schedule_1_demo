@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Thomas_Handover
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 124e2de1-4b73-4031-b7ef-4875862f79c4
+    BaseChoiceOrOptionGUID: 9561e768-21a8-4c61-8358-d95273d072a8
+    TargetNodeGuid: 235377e1-1552-4286-99d5-8684c38dd0a2
+  DialogueNodeData:
+  - Guid: 124e2de1-4b73-4031-b7ef-4875862f79c4
+    DialogueText: Ready to complete this week's delivery?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 230, y: 332}
+    choices:
+    - Guid: ad31cf2d-44b0-45a0-8dda-0288cf78e092
+      ChoiceText: Yes
+      ChoiceLabel: BEGIN_HANDOVER
+    - Guid: 9561e768-21a8-4c61-8358-d95273d072a8
+      ChoiceText: Not yet
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 235377e1-1552-4286-99d5-8684c38dd0a2
+    DialogueText: Then don't waste my time.
+    DialogueNodeLabel:
+    Position: {x: 872, y: 440}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData: []

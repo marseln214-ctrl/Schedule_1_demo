@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0648b2367bab503b89767a44e44ae0a, type: 3}
+  m_Name: LEDLight
+  m_EditorClassIdentifier:
+  Name: LED Grow Light
+  Description: A simple LED grow light. Emits a purple light that stimulates plant growth 15% faster than halogen.
+  ID: ledgrowlight
+  Icon: {fileID: 21300000, guid: fc73aa8fc4536314fbb9b4b7240ba7ae, type: 2}
+  Category: 5
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114605928411334956, guid: 49e95c640835de9429b92fdc1d73069d, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 80
+  ShopCategories:
+  - Category: 5
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 0
+    Tier: 4
+  StoredItem: {fileID: 114348714197751849, guid: e1df29e076a6853469ffa48442361e0f, type: 2}
+  StationItem: {fileID: 0}
+  BuiltItem: {fileID: 114935450539814403, guid: b6ac85d35d7663e45ae49d4c253674ac, type: 2}
+  BuildSoundType: 0

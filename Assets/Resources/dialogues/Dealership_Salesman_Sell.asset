@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Dealership_Salesman_Sell
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: cc0d838e-2824-4fd5-907d-798dc0195c16
+    BaseChoiceOrOptionGUID: 5527e239-d9b2-46bc-9170-2340cca12a52
+    TargetNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+  - BaseDialogueOrBranchNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    BaseChoiceOrOptionGUID: 5a2da057-9089-4232-94a0-fd5483e8f4e3
+    TargetNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+  - BaseDialogueOrBranchNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    BaseChoiceOrOptionGUID: 073231b8-af9e-41d5-89e1-5f31da8db8a4
+    TargetNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+  - BaseDialogueOrBranchNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+    BaseChoiceOrOptionGUID: 2059ec61-c218-4b00-9475-59aa519379ff
+    TargetNodeGuid: edb3c6ed-6884-4b32-809d-be12a5ffac65
+  - BaseDialogueOrBranchNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+    BaseChoiceOrOptionGUID: 01ced615-b8c7-4f6a-ab73-7345a5edd75e
+    TargetNodeGuid: 80b9c95c-384b-4314-be00-18f5b035ed10
+  - BaseDialogueOrBranchNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    BaseChoiceOrOptionGUID: 98c842e7-c98b-4725-ae9f-cfbd0a98424a
+    TargetNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+  - BaseDialogueOrBranchNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    BaseChoiceOrOptionGUID: 68f90282-3ce0-44a7-86bd-c6ffba8b87ad
+    TargetNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+  DialogueNodeData:
+  - Guid: 4762cc99-7fa6-4eab-8358-81ea5c6da963
+    DialogueText: Sorry, you don't have enough money for that model.
+    DialogueNodeLabel:
+    Position: {x: 1399, y: 381}
+    choices: []
+    VoiceLine: 0
+  - Guid: cc0d838e-2824-4fd5-907d-798dc0195c16
+    DialogueText: Welcome to Hyland Auto. What can I do for you?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 139, y: 421}
+    choices:
+    - Guid: 5527e239-d9b2-46bc-9170-2340cca12a52
+      ChoiceText: I'd like to purchase a vehicle
+      ChoiceLabel:
+    - Guid: 7437fcf0-adcb-4e66-aeb6-f65fab7e3bc7
+      ChoiceText: Bye
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: edb3c6ed-6884-4b32-809d-be12a5ffac65
+    DialogueText: Oh okay, I'll be here if you change your mind.
+    DialogueNodeLabel:
+    Position: {x: 1833, y: 827}
+    choices: []
+    VoiceLine: 0
+  - Guid: 80b9c95c-384b-4314-be00-18f5b035ed10
+    DialogueText: Good doing business with ya! Your new ride is waiting outisde.
+    DialogueNodeLabel:
+    Position: {x: 1833, y: 589}
+    choices: []
+    VoiceLine: 0
+  - Guid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+    DialogueText: So you'd like to purchase the <VEHICLE>?
+    DialogueNodeLabel: CONFIRM
+    Position: {x: 1124, y: 579}
+    choices:
+    - Guid: 01ced615-b8c7-4f6a-ab73-7345a5edd75e
+      ChoiceText: Yes (<PRICE>)
+      ChoiceLabel: BUY_ONLINE
+    - Guid: 2059ec61-c218-4b00-9475-59aa519379ff
+      ChoiceText: Actually, nevermind.
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    DialogueText: Fantastic! Which model are you interested in?
+    DialogueNodeLabel:
+    Position: {x: 572, y: 427}
+    choices:
+    - Guid: 5a2da057-9089-4232-94a0-fd5483e8f4e3
+      ChoiceText: The Shitbox (<PRICE>)
+      ChoiceLabel: SHITBOX
+    - Guid: 073231b8-af9e-41d5-89e1-5f31da8db8a4
+      ChoiceText: The Bruiser (<PRICE>)
+      ChoiceLabel: BRUISER
+    - Guid: 98c842e7-c98b-4725-ae9f-cfbd0a98424a
+      ChoiceText: The Hounddog (<PRICE>)
+      ChoiceLabel: HOUNDDOG
+    - Guid: 68f90282-3ce0-44a7-86bd-c6ffba8b87ad
+      ChoiceText: The Dinkler (<PRICE>)
+      ChoiceLabel: DINKLER
+    - Guid: 90a6467f-9500-49da-a7e2-45cf66157e68
+      ChoiceText: Nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  BranchNodeData: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: OfficerSanchez_PostSearch
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: be66b634-009a-421d-829c-97a1647564bd
+    BaseChoiceOrOptionGUID: 32534069-871c-47ce-b3fb-3e945c75e990
+    TargetNodeGuid: 4f087260-aacd-45cc-a2df-7cc2281c1fcd
+  DialogueNodeData:
+  - Guid: 4f087260-aacd-45cc-a2df-7cc2281c1fcd
+    DialogueText: You better watch your back - this town won't tolerate scum like you for much longer...
+    DialogueNodeLabel:
+    Position: {x: 1260, y: 401}
+    choices: []
+    VoiceLine: 0
+  - Guid: be66b634-009a-421d-829c-97a1647564bd
+    DialogueText: Fine, you're clean. Lucky this time, I guess. But I know you and your Uncle are up to something on that ranch.
+    DialogueNodeLabel: ENTRY
+    Position: {x: 431, y: 334}
+    choices:
+    - Guid: 32534069-871c-47ce-b3fb-3e945c75e990
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  BranchNodeData: []

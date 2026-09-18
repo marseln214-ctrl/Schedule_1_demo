@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_EndOfTutorial
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: That's customer 2 - now we're cooking! Well, maybe not 'cooking', we'll get to that later...
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: You know everything you need to get started. It's gonna be a real shame if those sharks clip you after all this effort - so get to work and start making some MONEY!
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Good luck, buddy...
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

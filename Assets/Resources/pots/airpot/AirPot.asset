@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0648b2367bab503b89767a44e44ae0a, type: 3}
+  m_Name: AirPot
+  m_EditorClassIdentifier:
+  Name: Air Pot
+  Description: Fancy hand woven fabric pot that keeps roots ventilated. Boosts plant growth speed by 15%, but also increases moisture drain by 30%
+  ID: airpot
+  Icon: {fileID: 21300000, guid: 4a89bd042a6f1504c88f8b445ea19614, type: 2}
+  Category: 2
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114605928411334956, guid: 49e95c640835de9429b92fdc1d73069d, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 120
+  ShopCategories:
+  - Category: 2
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 0
+    Tier: 5
+  StoredItem: {fileID: 114847773970716708, guid: 62a5765a2c57ea54484b5d7aef00e344, type: 2}
+  StationItem: {fileID: 0}
+  BuiltItem: {fileID: 114207887083838358, guid: 90dbb3fb5e945254181fdc72a195c4bd, type: 2}
+  BuildSoundType: 0

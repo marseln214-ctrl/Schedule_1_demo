@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8320d397c9444af2f40008881d6ff036, type: 3}
+  m_Name: Brick
+  m_EditorClassIdentifier:
+  Name: Brick
+  Description: Brick. Holds 20x product. You probably shouldn't be able to read this descriptjon.
+  ID: brick
+  Icon: {fileID: 0}
+  Category: 1
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114664089569626047, guid: e8edfc492f3f75d4e82aabd8477de50a, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 1
+  ShopCategories:
+  - Category: 7
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114847773970716708, guid: 62a5765a2c57ea54484b5d7aef00e344, type: 2}
+  StationItem: {fileID: 0}
+  Quantity: 20
+  StealthLevel: 0
+  FunctionalPackaging: {fileID: 0}
+  Equippable_Filled: {fileID: 114032020044393420, guid: 121592bb89c3d14428580e28347fd65b, type: 2}
+  StoredItem_Filled: {fileID: 114821999464025263, guid: 1bf0fd52e75c1a846bbdc38125bb9071, type: 2}

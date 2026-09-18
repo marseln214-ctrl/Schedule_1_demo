@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: CheckpointRequest
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 20e68437-f5e3-430e-9b5f-5cd490d575a0
+    BaseChoiceOrOptionGUID: b0eb7a90-41cd-4ff8-bca8-d61912f71b5d
+    TargetNodeGuid: e6515c36-5044-490a-8f2b-9a8e35c6db3c
+  - BaseDialogueOrBranchNodeGuid: e6515c36-5044-490a-8f2b-9a8e35c6db3c
+    BaseChoiceOrOptionGUID: ee3890cb-9325-449e-8f17-be1f0b10c9a1
+    TargetNodeGuid: a5ef56cc-3363-4b21-9f70-57064455549c
+  DialogueNodeData:
+  - Guid: 20e68437-f5e3-430e-9b5f-5cd490d575a0
+    DialogueText: If you want to drive through here, I'll need to search your vehicle.
+    DialogueNodeLabel: ENTRY
+    Position: {x: 292, y: 280}
+    choices:
+    - Guid: b0eb7a90-41cd-4ff8-bca8-d61912f71b5d
+      ChoiceText: Okay
+      ChoiceLabel:
+    - Guid: acb4f115-161d-417c-8d41-5083b8a0cc7f
+      ChoiceText: Nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: a5ef56cc-3363-4b21-9f70-57064455549c
+    DialogueText: You need to park your car nearby for me to search it.
+    DialogueNodeLabel:
+    Position: {x: 1256, y: 146}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData:
+  - Guid: e6515c36-5044-490a-8f2b-9a8e35c6db3c
+    BranchLabel: BRANCH_VEHICLE_EXISTS
+    Position: {x: 829, y: 280}
+    options:
+    - Guid: ee3890cb-9325-449e-8f17-be1f0b10c9a1
+    - Guid: ce06bba9-4cdd-487c-940b-717950f7c179

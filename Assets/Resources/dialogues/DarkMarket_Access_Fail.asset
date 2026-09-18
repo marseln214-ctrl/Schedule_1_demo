@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: DarkMarket_Access_Fail
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: e4528f71-f3e7-416b-8987-d72e28f4e2d7
+    BaseChoiceOrOptionGUID: a0a4a4ba-1087-4b7f-bfc2-05e25c5f94eb
+    TargetNodeGuid: 9dd6fc52-cd56-4c72-a24f-05569406b83d
+  DialogueNodeData:
+  - Guid: e4528f71-f3e7-416b-8987-d72e28f4e2d7
+    DialogueText: Yeah?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 520, y: 457}
+    choices:
+    - Guid: a0a4a4ba-1087-4b7f-bfc2-05e25c5f94eb
+      ChoiceText: Can I come in?
+      ChoiceLabel:
+    - Guid: 54024ce9-5f6b-40fc-8680-20ac4a992dec
+      ChoiceText: Bye
+      ChoiceLabel:
+    VoiceLine: 6
+  - Guid: 9dd6fc52-cd56-4c72-a24f-05569406b83d
+    DialogueText: Who the hell are you? Get lost.
+    DialogueNodeLabel:
+    Position: {x: 924, y: 413}
+    choices: []
+    VoiceLine: 9
+  BranchNodeData: []

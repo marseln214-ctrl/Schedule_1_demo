@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: EmployeeGenericIssue
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 5cd7b629-d909-4d21-9770-ce99cf8f0759
+    BaseChoiceOrOptionGUID: dbb0887a-d2da-440e-aae3-068ebec6b399
+    TargetNodeGuid: 09fc73d7-a7dc-44a4-b640-05ed5d1ed0e7
+  DialogueNodeData:
+  - Guid: 09fc73d7-a7dc-44a4-b640-05ed5d1ed0e7
+    DialogueText:
+    DialogueNodeLabel: FIX
+    Position: {x: 960, y: 293}
+    choices: []
+    VoiceLine: 0
+  - Guid: 5cd7b629-d909-4d21-9770-ce99cf8f0759
+    DialogueText:
+    DialogueNodeLabel: ENTRY
+    Position: {x: 577, y: 249}
+    choices:
+    - Guid: dbb0887a-d2da-440e-aae3-068ebec6b399
+      ChoiceText: How can I fix this?
+      ChoiceLabel:
+    VoiceLine: 0
+  BranchNodeData: []

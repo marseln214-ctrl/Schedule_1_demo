@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8320d397c9444af2f40008881d6ff036, type: 3}
+  m_Name: Baggie
+  m_EditorClassIdentifier:
+  Name: Baggie
+  Description: A small plastic baggie.  Holds 1x unit of any product.
+  ID: baggie
+  Icon: {fileID: 21300000, guid: 0ac2b3bd593342348810ba9e7050dd10, type: 2}
+  Category: 1
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114160594341056828, guid: d73c48770d6b868439e7c387f7eb9f70, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 1
+  ShopCategories:
+  - Category: 7
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114162065118325380, guid: 517ffe7f43f76544cbca2251a7bfc7a7, type: 2}
+  StationItem: {fileID: 0}
+  Quantity: 1
+  StealthLevel: 0
+  FunctionalPackaging: {fileID: 114227161385899489, guid: 7a82ebccb56c35f4d8b07b859fad1a08, type: 2}
+  Equippable_Filled: {fileID: 114181700302266143, guid: 3a8868ec9e4e96a42b46ee81b84f2751, type: 2}
+  StoredItem_Filled: {fileID: 114465557185612907, guid: 665b894945f9b884ba3be783a33ff335, type: 2}

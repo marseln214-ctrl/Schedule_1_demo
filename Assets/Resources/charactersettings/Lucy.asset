@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Lucy
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.91910803, g: 0.7347121, b: 0.5852019, a: 1}
+  Height: 0.964375
+  Gender: 0.66875
+  Weight: 0.34375
+  HairPath: Avatar/Hair/DoubleTopKnot/DoubleTopKnot
+  HairColor: {r: 0.9017767, g: 0.6896442, b: 0.11312473, a: 1}
+  EyebrowScale: 1.0625
+  EyebrowThickness: 0.9625001
+  EyebrowRestingHeight: 0.17499995
+  EyebrowRestingAngle: -1.2187502
+  LeftEyeLidColor: {r: 0.91910803, g: 0.7347121, b: 0.5852019, a: 1}
+  RightEyeLidColor: {r: 0.91910803, g: 0.7347121, b: 0.5852019, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.440625
+    bottomLidOpen: 0.18125
+  RightEyeRestingState:
+    topLidOpen: 0.440625
+    bottomLidOpen: 0.18125
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.634375
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_SlightSmile
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.7155991}
+  - layerPath: Avatar/Layers/Face/Freckles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.69917876}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/Buttonup
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath: Avatar/Layers/Top/V-Neck
+    layerTint: {r: 0.30693892, g: 0.25084132, b: 0.5178659, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 0.16342929, g: 0.23016356, b: 0.35715276, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.20536594, g: 0.20536594, b: 0.20536594, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Sneakers/Sneakers
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Hands/Polex/Polex
+    color: {r: 0.8214286, g: 0.13384894, b: 0.809872, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Lucy_Combined

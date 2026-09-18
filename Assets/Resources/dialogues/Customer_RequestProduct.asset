@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Customer_RequestProduct
+  m_EditorClassIdentifier:
+  NodeLinks: []
+  DialogueNodeData:
+  - Guid: 37f373c7-e373-42d3-820f-b62c29e0e3a7
+    DialogueText: Hey! I really could use some of your stuff right now... you got anything??
+    DialogueNodeLabel: ENTRY
+    Position: {x: 550, y: 404}
+    choices:
+    - Guid: 633f36c0-e592-4860-8aba-de82aa58249c
+      ChoiceText: Alright, I'll make you an offer.
+      ChoiceLabel: REQUEST_OFFER
+    - Guid: 63054b91-f47d-4594-bf1c-d92705362cf3
+      ChoiceText: Come with me, I'll get something for you.
+      ChoiceLabel: REQUEST_FOLLOW
+    - Guid: 0b87f1a0-46d4-44e0-a2a5-5cf4b5f662c3
+      ChoiceText: Get out of here
+      ChoiceLabel: REQUEST_REJECT
+    VoiceLine: 6
+  BranchNodeData: []

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Beth
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.8117509, g: 0.65521485, b: 0.5282937, a: 1}
+  Height: 0.9815114
+  Gender: 1
+  Weight: 0.29924375
+  HairPath: Avatar/Hair/FringePonytail/FringePonytail
+  HairColor: {r: 0.48495358, g: 0.35285062, b: 0.1118207, a: 1}
+  EyebrowScale: 0.9677574
+  EyebrowThickness: 0.9819569
+  EyebrowRestingHeight: -0.36272317
+  EyebrowRestingAngle: 2.6599681
+  LeftEyeLidColor: {r: 0.8117509, g: 0.65521485, b: 0.5282937, a: 1}
+  RightEyeLidColor: {r: 0.8117509, g: 0.65521485, b: 0.5282937, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.43148556
+    bottomLidOpen: 0.20579128
+  RightEyeRestingState:
+    topLidOpen: 0.43148556
+    bottomLidOpen: 0.20579128
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_Neutral
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/Buttonup
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath: Avatar/Layers/Bottom/FemaleUnderwear
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Flats/Flats
+    color: {r: 0.1237072, g: 0.1237072, b: 0.1237072, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Bottom/MediumSkirt/MediumSkirt
+    color: {r: 0.36029378, g: 0.26467946, b: 0.37774664, a: 1}
+  - path: Avatar/Accessories/Head/RectangleFrameGlasses/RectangleFrameGlasses
+    color: {r: 0.22639355, g: 0.57757574, b: 0.14531463, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Hands/Polex/Polex
+    color: {r: 1, g: 0.75080097, b: 0.22856414, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Beth_Combined

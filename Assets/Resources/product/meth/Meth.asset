@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b897711af0d3ddd30cc163884bc5df2, type: 3}
+  m_Name: Meth
+  m_EditorClassIdentifier:
+  Name: Meth
+  Description: Classic methamphetamine. A powerful stimulant with intense physical and mentral addictiveness.
+  ID: meth
+  Icon: {fileID: 21300000, guid: 7a45c9b0049281541b6cad4a07f750b2, type: 2}
+  Category: 0
+  Keywords: []
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114596397984531264, guid: 3abb695f226bd104fb9d1877e5b3d1e0, type: 2}
+  CustomItemUI: {fileID: 114933633794645597, guid: 914a9a392cb1d0841ab5208f2a17e0d8, type: 2}
+  CustomInfoContent: {fileID: 114979911201452052, guid: 1fbf27c5011aff245b5c56f6bd5f2218, type: 2}
+  legalStatus: 4
+  BasePurchasePrice: 50
+  ShopCategories: []
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114314240480036800, guid: d5fde53f36f7210479bdbe9f6a8f08ec, type: 2}
+  StationItem: {fileID: 114285771732759115, guid: c603e01966e8a2745848ed342059457a, type: 2}
+  Properties: []
+  DrugTypes:
+  - DrugType: 1
+  LawIntensityChange: 2
+  BasePrice: 1
+  MarketValue: 1
+  FunctionalProduct: {fileID: 114742658384031970, guid: 65a214a162fd8074d900a8f8ad62f241, type: 2}
+  EffectsDuration: 180
+  BaseAddictiveness: 0
+  ValidPackaging:
+  - {fileID: 11400000, guid: 5ad7f1f50e6c08c44aeb53fa7836aef2, type: 2}
+  - {fileID: 11400000, guid: 594f0f26f66f2d448b4d0dd1a35da431, type: 2}
+  - {fileID: 11400000, guid: 71888f22fac4319468bc9f0f5990a2f3, type: 2}
+  CrystalMaterial: {fileID: 2100000, guid: 231845ac80fc06b48aadc697f1482135, type: 2}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_FirstPlantsDone
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: Very nice - with the Speed Grow on those seeds, you'll be harvesting in only a day or two.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: In the meantime, I'm afraid that personal stash of yours ain't so personal no more. You've gotta sell everything you can get your hands on.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Grab your stash out of the <h1>safe</h> and use the <h1>packaging station</h> to place it in some baggies. You have to package product before it can be sold.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

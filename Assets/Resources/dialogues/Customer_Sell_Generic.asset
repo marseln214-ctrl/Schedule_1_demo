@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Customer_Sell_Generic
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 4689b187-108e-4c3e-9d2f-cecedc376f4f
+    BaseChoiceOrOptionGUID: 602aab6b-8a2b-4c14-afd8-9cd4f6fa22c5
+    TargetNodeGuid: 82162b8d-e7ac-4ba0-9dda-fd28ddd8ba5a
+  - BaseDialogueOrBranchNodeGuid: 4689b187-108e-4c3e-9d2f-cecedc376f4f
+    BaseChoiceOrOptionGUID: dbf40569-2075-460e-8943-51075dc97938
+    TargetNodeGuid: b1636dc2-9d45-41dd-9a2d-1e88cd09ce44
+  - BaseDialogueOrBranchNodeGuid: b1636dc2-9d45-41dd-9a2d-1e88cd09ce44
+    BaseChoiceOrOptionGUID: 0aeebf1a-fc0a-47c2-b24d-91773d37d211
+    TargetNodeGuid: 3df1e8a1-d7c9-407d-bb95-3d30d1d2291c
+  - BaseDialogueOrBranchNodeGuid: b1636dc2-9d45-41dd-9a2d-1e88cd09ce44
+    BaseChoiceOrOptionGUID: aa632c2d-cb51-4cb6-850a-c62a8fb3958f
+    TargetNodeGuid: 884739a1-219d-45f0-aa10-39cb67b19717
+  DialogueNodeData:
+  - Guid: b1636dc2-9d45-41dd-9a2d-1e88cd09ce44
+    DialogueText: Alright, here's <TOTAL> for <PRODUCT>.
+    DialogueNodeLabel: DIALOGUE_OFFER
+    Position: {x: 786, y: 312}
+    choices:
+    - Guid: aa632c2d-cb51-4cb6-850a-c62a8fb3958f
+      ChoiceText: Done deal.
+      ChoiceLabel: CHOICE_COMPLETE
+    - Guid: 0aeebf1a-fc0a-47c2-b24d-91773d37d211
+      ChoiceText: Actually, nevermind.
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 884739a1-219d-45f0-aa10-39cb67b19717
+    DialogueText: Cheers, good doing business with you.
+    DialogueNodeLabel:
+    Position: {x: 1339, y: 244}
+    choices: []
+    VoiceLine: 0
+  - Guid: 3df1e8a1-d7c9-407d-bb95-3d30d1d2291c
+    DialogueText: Alright... I'll be here if you change your mind.
+    DialogueNodeLabel:
+    Position: {x: 1339, y: 472}
+    choices: []
+    VoiceLine: 0
+  - Guid: 82162b8d-e7ac-4ba0-9dda-fd28ddd8ba5a
+    DialogueText: Then piss off.
+    DialogueNodeLabel:
+    Position: {x: 786, y: 627}
+    choices: []
+    VoiceLine: 0
+  - Guid: 4689b187-108e-4c3e-9d2f-cecedc376f4f
+    DialogueText: Hey, you the guy?
+    DialogueNodeLabel: ENTRY
+    Position: {x: 183, y: 421}
+    choices:
+    - Guid: dbf40569-2075-460e-8943-51075dc97938
+      ChoiceText: Yeah
+      ChoiceLabel:
+    - Guid: 602aab6b-8a2b-4c14-afd8-9cd4f6fa22c5
+      ChoiceText: No idea what you're talking about
+      ChoiceLabel:
+    VoiceLine: 0
+  BranchNodeData: []

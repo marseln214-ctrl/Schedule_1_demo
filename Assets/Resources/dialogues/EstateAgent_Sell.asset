@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: EstateAgent_Sell
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+    BaseChoiceOrOptionGUID: 01ced615-b8c7-4f6a-ab73-7345a5edd75e
+    TargetNodeGuid: edb3c6ed-6884-4b32-809d-be12a5ffac65
+  - BaseDialogueOrBranchNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+    BaseChoiceOrOptionGUID: 69c72d28-de8a-455e-b245-1d46b5fa687c
+    TargetNodeGuid: 80b9c95c-384b-4314-be00-18f5b035ed10
+  - BaseDialogueOrBranchNodeGuid: cc0d838e-2824-4fd5-907d-798dc0195c16
+    BaseChoiceOrOptionGUID: 7437fcf0-adcb-4e66-aeb6-f65fab7e3bc7
+    TargetNodeGuid: 5922bc82-d53e-455d-81e0-70f1bc6e65dc
+  - BaseDialogueOrBranchNodeGuid: cc0d838e-2824-4fd5-907d-798dc0195c16
+    BaseChoiceOrOptionGUID: 5527e239-d9b2-46bc-9170-2340cca12a52
+    TargetNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+  - BaseDialogueOrBranchNodeGuid: 4640d1c7-11f6-4767-8e1d-00174052aa27
+    BaseChoiceOrOptionGUID: fc0466a2-c9df-4547-a09a-7d1dd5cd38da
+    TargetNodeGuid: 29043d90-1fc0-4d1d-b6ec-47ab9c50bea8
+  - BaseDialogueOrBranchNodeGuid: 4640d1c7-11f6-4767-8e1d-00174052aa27
+    BaseChoiceOrOptionGUID: 46dd11a5-e9f2-4d1c-bda7-9fb9801af35a
+    TargetNodeGuid: 122b8361-6c53-4a4b-993f-e0d68bfd2224
+  - BaseDialogueOrBranchNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    BaseChoiceOrOptionGUID: f3a15b13-14d1-420a-ad17-d731155701d8
+    TargetNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+  - BaseDialogueOrBranchNodeGuid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    BaseChoiceOrOptionGUID: b668ec37-4c92-4949-a113-62d1effdb3b2
+    TargetNodeGuid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+  - BaseDialogueOrBranchNodeGuid: 5922bc82-d53e-455d-81e0-70f1bc6e65dc
+    BaseChoiceOrOptionGUID: 96f29343-266b-4346-aa36-1a058ec3e5b4
+    TargetNodeGuid: 4640d1c7-11f6-4767-8e1d-00174052aa27
+  DialogueNodeData:
+  - Guid: cc0d838e-2824-4fd5-907d-798dc0195c16
+    DialogueText: Hey there, what can I do for you?
+    DialogueNodeLabel: ENTRY
+    Position: {x: -284, y: 572}
+    choices:
+    - Guid: 5527e239-d9b2-46bc-9170-2340cca12a52
+      ChoiceText: I'd like to purchase a property
+      ChoiceLabel:
+    - Guid: 7437fcf0-adcb-4e66-aeb6-f65fab7e3bc7
+      ChoiceText: I'd like to purchase a business
+      ChoiceLabel:
+    - Guid: d90cd669-db76-4476-8929-2169595dcfd0
+      ChoiceText: Bye
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 5922bc82-d53e-455d-81e0-70f1bc6e65dc
+    DialogueText: Great idea! Which business are you interested in?
+    DialogueNodeLabel: BUSINESS_CHOICE
+    Position: {x: 337, y: 931}
+    choices:
+    - Guid: 96f29343-266b-4346-aa36-1a058ec3e5b4
+      ChoiceText: The Laundromat (<PRICE>)
+      ChoiceLabel: laundromat
+    - Guid: 61ecc02d-aadf-4743-8d1b-69cfa393bab6
+      ChoiceText: The Car Wash (<PRICE>)
+      ChoiceLabel: carwash
+    VoiceLine: 0
+  - Guid: 8e2ef594-96d9-43f2-8cfa-6efaea823a56
+    DialogueText: That's great to hear. Which property are you interested in?
+    DialogueNodeLabel: PROPERTY_CHOICE
+    Position: {x: 337, y: 441}
+    choices:
+    - Guid: f3a15b13-14d1-420a-ad17-d731155701d8
+      ChoiceText: The Bungalow (<PRICE>)
+      ChoiceLabel: bungalow
+    - Guid: b668ec37-4c92-4949-a113-62d1effdb3b2
+      ChoiceText: The Barn (<PRICE>)
+      ChoiceLabel: barn
+    - Guid: ad2170b0-1789-4a61-94fb-6ffc2b720252
+      ChoiceText: Nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: b6f6a4ce-849c-4047-b705-7a20440de0e0
+    DialogueText: So you'd like to purchase <PROPERTY>? Payments are made from your online balance.
+    DialogueNodeLabel: CONFIRM
+    Position: {x: 932, y: 441}
+    choices:
+    - Guid: 69c72d28-de8a-455e-b245-1d46b5fa687c
+      ChoiceText: Yes (<PRICE>)
+      ChoiceLabel: CONFIRM_CHOICE
+    - Guid: 01ced615-b8c7-4f6a-ab73-7345a5edd75e
+      ChoiceText: Actually, nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 4640d1c7-11f6-4767-8e1d-00174052aa27
+    DialogueText: So you'd like to purchase <BUSINESS>? Payments are made from your online balance.
+    DialogueNodeLabel: CONFIRM_BUSINESS
+    Position: {x: 910, y: 852}
+    choices:
+    - Guid: fc0466a2-c9df-4547-a09a-7d1dd5cd38da
+      ChoiceText: Yes (<PRICE>)
+      ChoiceLabel: CONFIRM_CHOICE
+    - Guid: 46dd11a5-e9f2-4d1c-bda7-9fb9801af35a
+      ChoiceText: Actually, nevermind
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: edb3c6ed-6884-4b32-809d-be12a5ffac65
+    DialogueText: Okay, let me know if you change your mind.
+    DialogueNodeLabel:
+    Position: {x: 1641, y: 615}
+    choices: []
+    VoiceLine: 0
+  - Guid: 80b9c95c-384b-4314-be00-18f5b035ed10
+    DialogueText: Outstanding, the property has been transferred to your name.
+    DialogueNodeLabel: CONFIRM_BUY
+    Position: {x: 1641, y: 411}
+    choices: []
+    VoiceLine: 0
+  - Guid: 29043d90-1fc0-4d1d-b6ec-47ab9c50bea8
+    DialogueText: Congratulations! The business has been transferred to your name.
+    DialogueNodeLabel: CONFIRM_BUY_BUSINESS
+    Position: {x: 1615, y: 914}
+    choices: []
+    VoiceLine: 0
+  - Guid: 122b8361-6c53-4a4b-993f-e0d68bfd2224
+    DialogueText: Okay, let me know if you change your mind.
+    DialogueNodeLabel:
+    Position: {x: 1631, y: 1109}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData: []

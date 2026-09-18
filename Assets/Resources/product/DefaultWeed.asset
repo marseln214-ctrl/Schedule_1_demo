@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6f569a841511799173febbc4e7e0e0, type: 3}
+  m_Name: DefaultWeed
+  m_EditorClassIdentifier:
+  Name: OG Kush
+  Description: Old school OG Kush. Offers a balanced, relaxing high with subtle physical effects.
+  ID: defaultweed
+  Icon: {fileID: 21300000, guid: 9b2a69d4630cf1b4e822f027ae99a277, type: 2}
+  Category: 0
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114939976992737695, guid: 8370b5085fcf9e34988855808174f557, type: 2}
+  CustomItemUI: {fileID: 114933633794645597, guid: 914a9a392cb1d0841ab5208f2a17e0d8, type: 2}
+  CustomInfoContent: {fileID: 114979911201452052, guid: 1fbf27c5011aff245b5c56f6bd5f2218, type: 2}
+  legalStatus: 2
+  BasePurchasePrice: 10
+  ShopCategories: []
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114808779554759708, guid: 8b8d7eb3c024c9b47bfe79f41a949312, type: 2}
+  StationItem: {fileID: 114813271915820231, guid: 8e4bf412462e7d545bef7a79628c1980, type: 2}
+  Properties: []
+  DrugTypes: []
+  LawIntensityChange: 1
+  BasePrice: 35
+  MarketValue: 35
+  FunctionalProduct: {fileID: 114830390071237488, guid: 343499d4ab359434e990d2022c4b4725, type: 2}
+  EffectsDuration: 180
+  BaseAddictiveness: 0.05
+  ValidPackaging:
+  - {fileID: 11400000, guid: 5ad7f1f50e6c08c44aeb53fa7836aef2, type: 2}
+  - {fileID: 11400000, guid: 594f0f26f66f2d448b4d0dd1a35da431, type: 2}
+  - {fileID: 11400000, guid: 71888f22fac4319468bc9f0f5990a2f3, type: 2}
+  MainMat: {fileID: 2100000, guid: 74364636a5a827f4bbc1e6529fa2bba9, type: 2}
+  SecondaryMat: {fileID: 2100000, guid: 23bdaaebb0ff7aa46adafcc1465c226f, type: 2}
+  LeafMat: {fileID: 2100000, guid: 3e0c85247ea4e924e8c97f9269e02aa9, type: 2}
+  StemMat: {fileID: 2100000, guid: 7787434c242b4b242aeed72d994203e5, type: 2}

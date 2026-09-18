@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_10Customers
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: You've got a decent base of operations and a growing customer base. You'll be pulling in some proper cash now, but you'll need help to manage all your customers.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Time to think about recruiting a <h1>dealer</h>. There's a guy... hmm... <h1>Benji Coleman</h> his name is, I think. He'll be the first dealer you can work with.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Dealers need to be <h1>unlocked</h> just like customers. They won't consider working for you until you've unlocked one of their friends. Open the <h1>contacts app</h> to view Benji's friends and go unlock one of them if you haven't already.
+    OnStartTriggers: []
+    OnDoneTriggers:
+    - Conditions:
+        EvaluationType: 0
+        ConditionList: []
+        QuestConditionList: []
+      onEvaluateTrueVariableSetters: []
+      onEvaluateTrueQuestSetters:
+      - QuestName: Dodgy Dealing
+        SetQuestState: 0
+        QuestState: 0
+        SetQuestEntryState: 1
+        QuestEntryIndex: 0
+        QuestEntryState: 2
+      onEvaluateTrue:
+        m_PersistentCalls:
+          m_Calls: []
+      onEvaluateFalseVariableSetters: []
+      onEvaluateFalseQuestSetters: []
+      onEvaluateFalse:
+        m_PersistentCalls:
+          m_Calls: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

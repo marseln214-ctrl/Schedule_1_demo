@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Joyce
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.5000079, g: 0.3719309, b: 0.26808465, a: 1}
+  Height: 0.96125
+  Gender: 0.771875
+  Weight: 0.6
+  HairPath: Avatar/Hair/Afro/Afro
+  HairColor: {r: 0.24528301, g: 0.19206071, b: 0.13999642, a: 1}
+  EyebrowScale: 1
+  EyebrowThickness: 1.4875
+  EyebrowRestingHeight: 1
+  EyebrowRestingAngle: -1.40625
+  LeftEyeLidColor: {r: 0.35715303, g: 0.26566827, b: 0.19149144, a: 1}
+  RightEyeLidColor: {r: 0.35715303, g: 0.26566827, b: 0.19149144, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.784375
+    bottomLidOpen: 0.275
+  RightEyeRestingState:
+    topLidOpen: 0.784375
+    bottomLidOpen: 0.275
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 0.99999094, g: 0.8486531, b: 0.8486531, a: 1}
+  PupilDilation: 0.59375
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_SlightSmile
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.855172}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/FlannelButtonup
+    layerTint: {r: 0.74499243, g: 0.54780746, b: 0.08148364, a: 1}
+  - layerPath: Avatar/Layers/Bottom/FemaleUnderwear
+    layerTint: {r: 0.23258647, g: 0.23258647, b: 0.23258647, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Sandals/Sandals
+    color: {r: 0.053571798, g: 0.053571798, b: 0.053571798, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Bottom/MediumSkirt/MediumSkirt
+    color: {r: 0.22321434, g: 0.16532572, b: 0.11210542, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Joyce_Combined

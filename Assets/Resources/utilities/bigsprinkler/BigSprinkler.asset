@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0648b2367bab503b89767a44e44ae0a, type: 3}
+  m_Name: BigSprinkler
+  m_EditorClassIdentifier:
+  Name: Big Sprinkler
+  Description: When activated, will water up to 8 surrounding plants. Plants must be directly next to or diagonal from the sprinkler.
+  ID: bigsprinkler
+  Icon: {fileID: 21300000, guid: 9b1962a7ff9352b43be12e438e2e8296, type: 2}
+  Category: 8
+  Keywords:
+  - water
+  - watering
+  AvailableInDemo: 0
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114605928411334956, guid: 49e95c640835de9429b92fdc1d73069d, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 600
+  ShopCategories:
+  - Category: 2
+  - Category: 3
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 0
+    Tier: 5
+  StoredItem: {fileID: 114515181536560429, guid: 4a491da2d195efa4e8f2af29a87354e1, type: 2}
+  StationItem: {fileID: 0}
+  BuiltItem: {fileID: 114796574297117477, guid: ddc497e0b140cde489e574ed6c866b97, type: 2}
+  BuildSoundType: 0

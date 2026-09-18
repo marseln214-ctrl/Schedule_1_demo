@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Botanist_MissingMaterials
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 713b3a0e-ae0c-4ed6-a4b3-82e376389316
+    BaseChoiceOrOptionGUID: d47f1202-d6cf-49ca-b59c-4df43ee26aa1
+    TargetNodeGuid: ce14b29c-b248-46ec-b742-86fd27005701
+  DialogueNodeData:
+  - Guid: 713b3a0e-ae0c-4ed6-a4b3-82e376389316
+    DialogueText: Sorry boss, I'm missing the items required to perform any tasks on my assigned pots. If you haven't already, you can assign a supplies source where I'll automatically grab required items from.
+    DialogueNodeLabel: ENTRY
+    Position: {x: 62, y: 305}
+    choices:
+    - Guid: d47f1202-d6cf-49ca-b59c-4df43ee26aa1
+      ChoiceText: How do I assign a supplies source?
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: ce14b29c-b248-46ec-b742-86fd27005701
+    DialogueText: You can use your management clipboard for that.
+    DialogueNodeLabel:
+    Position: {x: 1347, y: 358}
+    choices: []
+    VoiceLine: 0
+  BranchNodeData: []

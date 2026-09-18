@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6f569a841511799173febbc4e7e0e0, type: 3}
+  m_Name: Granddaddy Purple
+  m_EditorClassIdentifier:
+  Name: Granddaddy Purple
+  Description: A potent classic with intense sedating and euphoric effects.
+  ID: granddaddypurple
+  Icon: {fileID: 21300000, guid: 496171dbb03384c4f8acb74a9b1c97d8, type: 2}
+  Category: 0
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114307771276247689, guid: 393f5250ad944a14682530cdeef1d114, type: 2}
+  CustomItemUI: {fileID: 114933633794645597, guid: 914a9a392cb1d0841ab5208f2a17e0d8, type: 2}
+  CustomInfoContent: {fileID: 114979911201452052, guid: 1fbf27c5011aff245b5c56f6bd5f2218, type: 2}
+  legalStatus: 2
+  BasePurchasePrice: 10
+  ShopCategories: []
+  RequiresLevelToPurchase: 0
+  RequiredRank:
+    Rank: 0
+    Tier: 0
+  StoredItem: {fileID: 114895616031188130, guid: 4457e7af419ef0c45be11f35cd673617, type: 2}
+  StationItem: {fileID: 114813271915820231, guid: 8e4bf412462e7d545bef7a79628c1980, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: 5a47d44511d79fe4fb5692ac4c1639af, type: 2}
+  DrugTypes:
+  - DrugType: 0
+  LawIntensityChange: 1
+  BasePrice: 35
+  MarketValue: 46
+  FunctionalProduct: {fileID: 114931748764221459, guid: 458b100835236584d9ca6280c9c382ad, type: 2}
+  EffectsDuration: 180
+  BaseAddictiveness: 0
+  ValidPackaging:
+  - {fileID: 11400000, guid: 5ad7f1f50e6c08c44aeb53fa7836aef2, type: 2}
+  - {fileID: 11400000, guid: 594f0f26f66f2d448b4d0dd1a35da431, type: 2}
+  - {fileID: 11400000, guid: 71888f22fac4319468bc9f0f5990a2f3, type: 2}
+  MainMat: {fileID: 2100000, guid: f2ca9cd618d0c514aa1696c9dab609c1, type: 2}
+  SecondaryMat: {fileID: 2100000, guid: 1c1e6712cde82c44eb06877451cc6c9a, type: 2}
+  LeafMat: {fileID: 2100000, guid: 9a26715581376654db3a3914dc0e11a0, type: 2}
+  StemMat: {fileID: 2100000, guid: 8c825e66963289049aa1d7ac89e0ad0a, type: 2}

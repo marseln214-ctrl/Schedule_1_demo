@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51d1b1636495af3ddbb738ad0d2e7f4, type: 3}
+  m_Name: ElectricTrimmers
+  m_EditorClassIdentifier:
+  Name: Electric Plant Trimmers
+  Description: A pair of electric plant trimmers. Simply click and drag to harvest.
+  ID: electrictrimmers
+  Icon: {fileID: 21300000, guid: 060d231a3a803af429448d35c3217e58, type: 2}
+  Category: 3
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 1
+  Equippable: {fileID: 114540541261602347, guid: a9040360b4e5fa64190b3a7bb6ab125a, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 50
+  ShopCategories:
+  - Category: 3
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 0
+    Tier: 5
+  StoredItem: {fileID: 114199033798102537, guid: c22d4901537fa284cbfa196088962ba8, type: 2}
+  StationItem: {fileID: 0}

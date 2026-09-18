@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_Day2Intro
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: Rise and shine, buddy. Looks like those plants are coming along nicely, though they won't be ready for harvest until later today.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Let's set up another OG Kush plant. We've got the seed, now we just need a pot, suspension rack, grow light, and some soil.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Head over to the hardware store to grab these supplies. It might also be a good idea to grab some <h1>Speed Grow</h> while you're at it.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

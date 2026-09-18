@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Jen
+  m_EditorClassIdentifier:
+  SkinColor: {r: 1, g: 0.69454294, b: 0.44687504, a: 1}
+  Height: 0.9757031
+  Gender: 0.759375
+  Weight: 0.328125
+  HairPath: Avatar/Hair/ShoulderLength/ShoulderLength
+  HairColor: {r: 0.741072, g: 0.36727673, b: 0.020181088, a: 1}
+  EyebrowScale: 1.16875
+  EyebrowThickness: 0.671875
+  EyebrowRestingHeight: 0.71875
+  EyebrowRestingAngle: 2.1562493
+  LeftEyeLidColor: {r: 1, g: 0.69454294, b: 0.44687504, a: 1}
+  RightEyeLidColor: {r: 1, g: 0.69454294, b: 0.44687504, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.396875
+    bottomLidOpen: 0.1125
+  RightEyeRestingState:
+    topLidOpen: 0.396875
+    bottomLidOpen: 0.1125
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_Neutral
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.7894908}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 0.6006566}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/Buttonup
+    layerTint: {r: 0.6394492, g: 0.7533522, b: 0.8303572, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.41964293, g: 0.3205729, b: 0.22949225, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Flats/Flats
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.302584, g: 0.19935279, b: 0.060111556, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Jen_Combined

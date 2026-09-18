@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a539b9588c9b7c0468bd4db78c2d6e46, type: 3}
+  m_Name: Dan_Greeting
+  m_EditorClassIdentifier:
+  NodeLinks:
+  - BaseDialogueOrBranchNodeGuid: 94e7bba7-704d-416d-b831-005e2d900c60
+    BaseChoiceOrOptionGUID: 2deffffb-ce20-495d-aa84-c3b952e1b335
+    TargetNodeGuid: 8fd278bb-38fd-4c66-a56a-2c9eaee1919d
+  - BaseDialogueOrBranchNodeGuid: 8fd278bb-38fd-4c66-a56a-2c9eaee1919d
+    BaseChoiceOrOptionGUID: 99aa3755-6b21-431f-a923-9d8884ace8aa
+    TargetNodeGuid: f465660d-f0ae-4680-8f4f-8f133ce009e1
+  - BaseDialogueOrBranchNodeGuid: 8fd278bb-38fd-4c66-a56a-2c9eaee1919d
+    BaseChoiceOrOptionGUID: ac989a18-f877-4d2b-bc17-6334c331c855
+    TargetNodeGuid: 49a5e66d-5100-4193-9461-92f0e4a95330
+  - BaseDialogueOrBranchNodeGuid: 8fd278bb-38fd-4c66-a56a-2c9eaee1919d
+    BaseChoiceOrOptionGUID: 4f2ebd7b-d09f-4511-9cd0-5d69d590f832
+    TargetNodeGuid: d12d4b23-42eb-414a-976c-ba3f8fccdd56
+  DialogueNodeData:
+  - Guid: 94e7bba7-704d-416d-b831-005e2d900c60
+    DialogueText: Hey friend, you're new, right? Nice to see a fresh face in town.
+    DialogueNodeLabel: ENTRY
+    Position: {x: 317, y: 245}
+    choices:
+    - Guid: 2deffffb-ce20-495d-aa84-c3b952e1b335
+      ChoiceText:
+      ChoiceLabel:
+    VoiceLine: 0
+  - Guid: 8fd278bb-38fd-4c66-a56a-2c9eaee1919d
+    DialogueText: I'm Dan, I run this here hardware store. What line of work are you in?
+    DialogueNodeLabel:
+    Position: {x: 812, y: 379}
+    choices:
+    - Guid: 99aa3755-6b21-431f-a923-9d8884ace8aa
+      ChoiceText: I work in agriculture
+      ChoiceLabel:
+    - Guid: ac989a18-f877-4d2b-bc17-6334c331c855
+      ChoiceText: Drug dealer
+      ChoiceLabel:
+    - Guid: 4f2ebd7b-d09f-4511-9cd0-5d69d590f832
+      ChoiceText: You wanna try minding your own business?
+      ChoiceLabel:
+    VoiceLine: 6
+  - Guid: d12d4b23-42eb-414a-976c-ba3f8fccdd56
+    DialogueText: Oh sorry partner, didn't mean to pry. I'll let you be on your way...
+    DialogueNodeLabel:
+    Position: {x: 1326, y: 593}
+    choices: []
+    VoiceLine: 0
+  - Guid: 49a5e66d-5100-4193-9461-92f0e4a95330
+    DialogueText: Haha good one partner. Tell you what, take some SpeedGrow on the house - them 'Marijuana' plants will love it.
+    DialogueNodeLabel: GIVE_ITEM
+    Position: {x: 1326, y: 427}
+    choices:
+    - Guid: af757bdf-d413-4ec7-83b7-d24805d001c0
+      ChoiceText: Thanks...
+      ChoiceLabel: GIVE_ITEM
+    VoiceLine: 11
+  - Guid: f465660d-f0ae-4680-8f4f-8f133ce009e1
+    DialogueText: Oh ain't that nice, I always fancied a bit of gardening myself. Here's some SpeedGrow on the house. Welcome to Hyland Point.
+    DialogueNodeLabel: GIVE_ITEM
+    Position: {x: 1326, y: 278}
+    choices:
+    - Guid: 34538a25-8a8e-4f9c-869e-f43929d0eade
+      ChoiceText: Thanks
+      ChoiceLabel:
+    VoiceLine: 11
+  BranchNodeData: []

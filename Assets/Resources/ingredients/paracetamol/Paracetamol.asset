@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc829d69add9d1225f41f208b02d29, type: 3}
+  m_Name: Paracetamol
+  m_EditorClassIdentifier:
+  Name: Paracetamol
+  Description: Mild over-the-counter painkiller
+  ID: paracetamol
+  Icon: {fileID: 21300000, guid: 001e42be8ccf17444a7958842ebcbd43, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114948714316075342, guid: 6e752280ddcc98a4b9a9b65886389411, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 6
+  ShopCategories:
+  - Category: 6
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 2
+    Tier: 2
+  StoredItem: {fileID: 114156466080061266, guid: 293ad6839eb0d5c49b5cf2d80921e43d, type: 2}
+  StationItem: {fileID: 114364185795665823, guid: efc11ad3126745d48b0514f14330a0ba, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: f3a47f88694c833449194f2efb042e06, type: 2}

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Lily
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.8433253, g: 0.70488924, b: 0.5926438, a: 1}
+  Height: 0.952121
+  Gender: 0.829446
+  Weight: 0.2886297
+  HairPath: Avatar/Hair/MidFringe/MidFringe
+  HairColor: {r: 0.2629555, g: 0.13540384, b: 0.069588706, a: 1}
+  EyebrowScale: 1.0590427
+  EyebrowThickness: 0.92475176
+  EyebrowRestingHeight: 0.52281606
+  EyebrowRestingAngle: -1.3966825
+  LeftEyeLidColor: {r: 0.6037736, g: 0.51811147, b: 0.44713423, a: 1}
+  RightEyeLidColor: {r: 0.6039216, g: 0.52156866, b: 0.4509804, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.3589285
+    bottomLidOpen: 0.305834
+  RightEyeRestingState:
+    topLidOpen: 0.3589285
+    bottomLidOpen: 0.305834
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.7565597
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_SlightSmile
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/Freckles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.62921286}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Bottom/FemaleUnderwear
+    layerTint: {r: 0.50938964, g: 0.50938964, b: 0.50938964, a: 1}
+  - layerPath: Avatar/Layers/Top/RolledButtonup
+    layerTint: {r: 0.98433036, g: 0.98433036, b: 0.98433036, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Flats/Flats
+    color: {r: 0.17155628, g: 0.17155628, b: 0.17155628, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path: Avatar/Accessories/Bottom/MediumSkirt/MediumSkirt
+    color: {r: 0.20583573, g: 0.20583573, b: 0.20583573, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Lily_Combined

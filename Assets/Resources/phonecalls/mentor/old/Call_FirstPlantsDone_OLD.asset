@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710e1bac7a011e4d458ef6c347ab4156, type: 3}
+  m_Name: Call_FirstPlantsDone_OLD
+  m_EditorClassIdentifier:
+  CallerID: {fileID: 11400000, guid: 09cdebfe05ccaad41adda79be1ca9067, type: 2}
+  Stages:
+  - Text: Very nice - with the Speed Grow on those seeds, you'll be harvesting in no time. It'll slightly lower the quality of the product, but that's fine for now - your first customer won't be picky.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: Speaking of such, <h1>Kevin</h> will be the first guy you'll be sellin' to. He's my ex wife's nephew's cousin's friend or something like that. He ain't the brightest fella around, but he's a friendly guy.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  - Text: I've passed your number onto him, you should get a message from him later today. That'll be your chance to pick up your first contract. Talk to ya later.
+    OnStartTriggers: []
+    OnDoneTriggers: []
+  onCallCompleted:
+    m_PersistentCalls:
+      m_Calls: []

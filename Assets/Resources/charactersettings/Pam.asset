@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9b71b75d28cae613e8a9ed2305204e, type: 3}
+  m_Name: Pam
+  m_EditorClassIdentifier:
+  SkinColor: {r: 0.8839237, g: 0.74443376, b: 0.63176876, a: 1}
+  Height: 0.9757032
+  Gender: 0.890625
+  Weight: 1
+  HairPath: Avatar/Hair/MidFringe/MidFringe
+  HairColor: {r: 0.14285746, g: 0.14285746, b: 0.14285746, a: 1}
+  EyebrowScale: 0.86875
+  EyebrowThickness: 2.0875
+  EyebrowRestingHeight: 1
+  EyebrowRestingAngle: -0.09375036
+  LeftEyeLidColor: {r: 0.70980394, g: 0.5647059, b: 0.44705883, a: 1}
+  RightEyeLidColor: {r: 0.70980394, g: 0.5647059, b: 0.44705883, a: 1}
+  LeftEyeRestingState:
+    topLidOpen: 0.24375
+    bottomLidOpen: 0.521875
+  RightEyeRestingState:
+    topLidOpen: 0.24375
+    bottomLidOpen: 0.521875
+  EyeballMaterialIdentifier: Default
+  EyeBallTint: {r: 1, g: 1, b: 1, a: 1}
+  PupilDilation: 0.65
+  FaceLayerSettings:
+  - layerPath: Avatar/Layers/Face/Face_NeutralPout
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath: Avatar/Layers/Face/EyeShadow
+    layerTint: {r: 0, g: 0, b: 0, a: 0.82233137}
+  - layerPath: Avatar/Layers/Face/OldPersonWrinkles
+    layerTint: {r: 0, g: 0, b: 0, a: 0.6252871}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  - layerPath:
+    layerTint: {r: 0, g: 0, b: 0, a: 1}
+  BodyLayerSettings:
+  - layerPath: Avatar/Layers/Top/RolledButtonup
+    layerTint: {r: 0.69772345, g: 0.34814683, b: 0.2943521, a: 1}
+  - layerPath: Avatar/Layers/Bottom/Jeans
+    layerTint: {r: 0.8385277, g: 0.8385277, b: 0.8385277, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  - layerPath:
+    layerTint: {r: 1, g: 1, b: 1, a: 1}
+  AccessorySettings:
+  - path: Avatar/Accessories/Feet/Sandals/Sandals
+    color: {r: 0.4732274, g: 0.3267648, b: 0.07711076, a: 1}
+  - path: Avatar/Accessories/Waist/Belt/Belt
+    color: {r: 0.25892916, g: 0.25892916, b: 0.25892916, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - path:
+    color: {r: 1, g: 1, b: 1, a: 1}
+  UseCombinedLayer: 1
+  CombinedLayerPath: CombinedAvatarLayers/Pam_Combined

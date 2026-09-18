@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc829d69add9d1225f41f208b02d29, type: 3}
+  m_Name: MouthWash
+  m_EditorClassIdentifier:
+  Name: Mouth Wash
+  Description: Antiseptic mouth wash for a minty fresh breath.
+  ID: mouthwash
+  Icon: {fileID: 21300000, guid: 75de49fe94c61b2419f85bf435f545d0, type: 2}
+  Category: 9
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 20
+  Equippable: {fileID: 114239799626742077, guid: 2e9b0b89a7bc7204cbe7236e65c066d0, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 4
+  ShopCategories:
+  - Category: 6
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 1
+    Tier: 3
+  StoredItem: {fileID: 114002405990520669, guid: aaa974697c2793348a575fec98d758a4, type: 2}
+  StationItem: {fileID: 114756746936004490, guid: 68e9791a288030545b5221d90b9639a1, type: 2}
+  Properties:
+  - {fileID: 11400000, guid: a055d2c9c78f66842a24ffae62f52260, type: 2}

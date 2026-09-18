@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0648b2367bab503b89767a44e44ae0a, type: 3}
+  m_Name: MixingStation
+  m_EditorClassIdentifier:
+  Name: Mixing Station
+  Description: Used to mix product with ingredients to create unique new products.
+  ID: mixingstation
+  Icon: {fileID: 21300000, guid: 15b472f5e32814d488f44c5e8bf38514, type: 2}
+  Category: 8
+  Keywords: []
+  AvailableInDemo: 1
+  LabelDisplayColor: {r: 1, g: 1, b: 1, a: 1}
+  StackLimit: 10
+  Equippable: {fileID: 114605928411334956, guid: 49e95c640835de9429b92fdc1d73069d, type: 2}
+  CustomItemUI: {fileID: 0}
+  CustomInfoContent: {fileID: 0}
+  legalStatus: 0
+  BasePurchasePrice: 500
+  ShopCategories:
+  - Category: 1
+  RequiresLevelToPurchase: 1
+  RequiredRank:
+    Rank: 1
+    Tier: 1
+  StoredItem: {fileID: 114459499014527224, guid: 65c2ae7cc432d4b418d7c1de4eee94d0, type: 2}
+  StationItem: {fileID: 0}
+  BuiltItem: {fileID: 114809413623144148, guid: dba42e561b82e8944bbfb8d94696198d, type: 2}
+  BuildSoundType: 2

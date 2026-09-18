@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 722287376, guid: 112e070ee4e7513bf41ec30c0d97756c, type: 3}
+  m_Name: EasyFeedbackConfig
+  m_EditorClassIdentifier:
+  StoreLocal: 0
+  Token: ATTA3bf28c46d0f7bdc718dafb62dd2db761a2348314df8d807768e4b45ec3eb070fE395F057
+  Board:
+    Id: 674e3071c3dc18fd1f2a2f9f
+    ListNames:
+    - Bugs (EF)
+    - Suggestions (EF)
+    - Resolved
+    ListIds:
+    - 674e3071c3dc18fd1f2a2fa1
+    - 674e3071c3dc18fd1f2a2fa0
+    - 674e3071c3dc18fd1f2a2fa2
+    CategoryNames:
+    - 'Bugs '
+    - 'Suggestions '
+    CategoryIds:
+    - 674e3071c3dc18fd1f2a2fa1
+    - 674e3071c3dc18fd1f2a2fa0
+    Labels:
+    - id: 674e3071c3dc18fd1f2a2fb4
+      idBoard: 674e3071c3dc18fd1f2a2f9f
+      name: Low Priority
+      color: green
+      uses: 0
+      order: 0
+    - id: 674e3071c3dc18fd1f2a2fb8
+      idBoard: 674e3071c3dc18fd1f2a2f9f
+      name: High Priority
+      color: red
+      uses: 0
+      order: 0
+    - id: 674e3071c3dc18fd1f2a2fb6
+      idBoard: 674e3071c3dc18fd1f2a2f9f
+      name: Medium Priority
+      color: yellow
+      uses: 0
+      order: 0

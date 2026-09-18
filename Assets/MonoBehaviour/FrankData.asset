@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad40bbcdeeab14945d2c5c937f28b7b, type: 3}
+  m_Name: FrankData
+  m_EditorClassIdentifier:
+  DefaultAffinityData:
+    ProductAffinities:
+    - DrugType: 0
+      Affinity: 0.68
+    - DrugType: 1
+      Affinity: 1
+    - DrugType: 2
+      Affinity: 0.02
+  PreferredProperties:
+  - {fileID: 11400000, guid: 0a08da85963f58249a335349eb804c8b, type: 2}
+  - {fileID: 11400000, guid: 80d4b1a044e7d70488840da9ab1b8bb0, type: 2}
+  - {fileID: 11400000, guid: 95efbe7df0132934eb10217c5a488777, type: 2}
+  MinWeeklySpend: 400
+  MaxWeeklySpend: 1000
+  MinOrdersPerWeek: 3
+  MaxOrdersPerWeek: 6
+  OrderTime: 230
+  PreferredOrderDay: 5
+  Standards: 1
+  CanBeDirectlyApproached: 1
+  GuaranteeFirstSampleSuccess: 0
+  MinMutualRelationRequirement: 2
+  MaxMutualRelationRequirement: 5
+  CallPoliceChance: 0
+  DependenceMultiplier: 1
+  BaseAddiction: 0.4

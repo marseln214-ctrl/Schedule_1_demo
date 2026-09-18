@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f5d7090cc7cd2090b6a9fe1738392c3, type: 3}
+  m_Name: SalvadorDialogueDatabase
+  m_EditorClassIdentifier:
+  Modules: []
+  GenericEntries:
+  - Key: supplier_unlocked
+    Chains:
+    - Lines:
+      - Hey, I'm Sal. You need Coca seeds? You speak to me.
+      - Send me a message if you want to order a drop.
+  - Key: supplier_meet_confirm
+    Chains:
+    - Lines:
+      - Okay. I'll be <LOCATION> for the next 6 hours.
+  - Key: supplier_meeting_greeting
+    Chains:
+    - Lines:
+      - You ready?
+  - Key: meeting_order_complete
+    Chains:
+    - Lines:
+      - Thanks
+  - Key: supplier_meetings_unlocked
+    Chains:
+    - Lines:
+      - You've been a good customer - I'll start doing in-person meetings with you now if you want to buy larger quantities.
+      - Send me a message when you want to meet.

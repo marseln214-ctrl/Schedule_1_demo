@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad40bbcdeeab14945d2c5c937f28b7b, type: 3}
+  m_Name: GeorgeData
+  m_EditorClassIdentifier:
+  DefaultAffinityData:
+    ProductAffinities:
+    - DrugType: 0
+      Affinity: 0.9
+    - DrugType: 1
+      Affinity: 0.37
+    - DrugType: 2
+      Affinity: -0.15
+  PreferredProperties:
+  - {fileID: 11400000, guid: 85327ed95aebbaf4eb9a01a33e77f4cb, type: 2}
+  - {fileID: 11400000, guid: 231bc7a9a548fd7428a1874a41eb7fd8, type: 2}
+  - {fileID: 11400000, guid: f3a47f88694c833449194f2efb042e06, type: 2}
+  MinWeeklySpend: 500
+  MaxWeeklySpend: 1400
+  MinOrdersPerWeek: 3
+  MaxOrdersPerWeek: 6
+  OrderTime: 1245
+  PreferredOrderDay: 5
+  Standards: 2
+  CanBeDirectlyApproached: 1
+  GuaranteeFirstSampleSuccess: 1
+  MinMutualRelationRequirement: 2
+  MaxMutualRelationRequirement: 5
+  CallPoliceChance: 0.414
+  DependenceMultiplier: 1
+  BaseAddiction: 0

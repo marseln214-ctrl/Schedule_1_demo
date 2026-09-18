@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad40bbcdeeab14945d2c5c937f28b7b, type: 3}
+  m_Name: JenData
+  m_EditorClassIdentifier:
+  DefaultAffinityData:
+    ProductAffinities:
+    - DrugType: 0
+      Affinity: 0.411
+    - DrugType: 1
+      Affinity: -0.786
+    - DrugType: 2
+      Affinity: 1
+  PreferredProperties:
+  - {fileID: 11400000, guid: 79710a153fd4baa48bb0242ea920c65a, type: 2}
+  - {fileID: 11400000, guid: 85327ed95aebbaf4eb9a01a33e77f4cb, type: 2}
+  - {fileID: 11400000, guid: d10ac46a05b23fd428fdb2e5a6788f89, type: 2}
+  MinWeeklySpend: 400
+  MaxWeeklySpend: 800
+  MinOrdersPerWeek: 3
+  MaxOrdersPerWeek: 6
+  OrderTime: 2250
+  PreferredOrderDay: 4
+  Standards: 2
+  CanBeDirectlyApproached: 1
+  GuaranteeFirstSampleSuccess: 0
+  MinMutualRelationRequirement: 2
+  MaxMutualRelationRequirement: 5
+  CallPoliceChance: 0.44
+  DependenceMultiplier: 1
+  BaseAddiction: 0

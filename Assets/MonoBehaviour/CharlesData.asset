@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad40bbcdeeab14945d2c5c937f28b7b, type: 3}
+  m_Name: CharlesData
+  m_EditorClassIdentifier:
+  DefaultAffinityData:
+    ProductAffinities:
+    - DrugType: 0
+      Affinity: 0.55
+    - DrugType: 1
+      Affinity: 0.24
+    - DrugType: 2
+      Affinity: 1
+  PreferredProperties:
+  - {fileID: 11400000, guid: 5a47d44511d79fe4fb5692ac4c1639af, type: 2}
+  - {fileID: 11400000, guid: 79710a153fd4baa48bb0242ea920c65a, type: 2}
+  - {fileID: 11400000, guid: fce93186e2c9b3744855f6548e988b00, type: 2}
+  MinWeeklySpend: 400
+  MaxWeeklySpend: 800
+  MinOrdersPerWeek: 7
+  MaxOrdersPerWeek: 7
+  OrderTime: 1330
+  PreferredOrderDay: 2
+  Standards: 2
+  CanBeDirectlyApproached: 1
+  GuaranteeFirstSampleSuccess: 0
+  MinMutualRelationRequirement: 2
+  MaxMutualRelationRequirement: 5
+  CallPoliceChance: 0.384
+  DependenceMultiplier: 1
+  BaseAddiction: 0

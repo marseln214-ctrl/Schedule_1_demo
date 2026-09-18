@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad40bbcdeeab14945d2c5c937f28b7b, type: 3}
+  m_Name: JessiData
+  m_EditorClassIdentifier:
+  DefaultAffinityData:
+    ProductAffinities:
+    - DrugType: 0
+      Affinity: 0
+    - DrugType: 1
+      Affinity: 1
+    - DrugType: 2
+      Affinity: -0.27
+  PreferredProperties:
+  - {fileID: 11400000, guid: 85327ed95aebbaf4eb9a01a33e77f4cb, type: 2}
+  - {fileID: 11400000, guid: 4f5da017b74386542b290b8e9b5ddbe7, type: 2}
+  - {fileID: 11400000, guid: d10ac46a05b23fd428fdb2e5a6788f89, type: 2}
+  MinWeeklySpend: 200
+  MaxWeeklySpend: 1200
+  MinOrdersPerWeek: 7
+  MaxOrdersPerWeek: 7
+  OrderTime: 2230
+  PreferredOrderDay: 3
+  Standards: 1
+  CanBeDirectlyApproached: 1
+  GuaranteeFirstSampleSuccess: 1
+  MinMutualRelationRequirement: 2
+  MaxMutualRelationRequirement: 5
+  CallPoliceChance: 0.33
+  DependenceMultiplier: 1
+  BaseAddiction: 0.4

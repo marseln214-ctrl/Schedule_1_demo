@@ -1,0 +1,508 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 330670497, guid: a7c8ed169960a6d09f38393641221f85, type: 3}
+  m_Name: Controls
+  m_EditorClassIdentifier:
+  m_ActionMaps:
+  - m_Name: Generic
+    m_Id: 0e01b92d-82f6-4f79-8846-2940e46f680c
+    m_Asset: {fileID: 11400000}
+    m_Actions:
+    - m_Name: Motion
+      m_Type: 0
+      m_ExpectedControlType:
+      m_Id: b6f059f6-c590-420f-aad8-81ac3a39248f
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 1
+    - m_Name: PrimaryClick
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: fa2e1100-f48f-4483-abe4-3a2aa066bd4b
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: SecondaryClick
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 24d3d322-2a8d-4f52-81a1-c6cdfdf9dcb3
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: TertiaryClick
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6be76bf6-0fc7-4448-934d-87dd23f852f1
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Jump
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: c24354e3-7956-46e3-a93d-b722bb8a6787
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Crouch
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a1bfb476-500f-4ed7-8c18-21df4b0755c8
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Sprint
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 15f33e6c-679e-4a5a-8431-701684f2b793
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Escape
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6829bf75-2fc8-4bc5-9ec8-02364ffa1710
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Back
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 56b0b6c7-8c85-4476-a742-fcb1140be115
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Interact
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6f5a7d54-6322-4560-b17a-28b3c319b5cd
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Submit
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 753ad2a9-48ce-41be-9a1f-dacdadf8254c
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: TogglePhone
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 8d827749-02a4-4d7e-a055-b0962cf25cb5
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ToggleLights
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 27f37983-5f3c-4d00-b4aa-920ec4c4dfc9
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: RotateLeft
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 06336e89-0ca4-4798-af1a-45253a284ffb
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: RotateRight
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 4f0a7b45-62c1-4bad-84eb-506dbc446641
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ManagementMode
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: ad02383a-b305-4001-a96e-92c687607ecc
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Handbrake
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 4452cdcc-5cbd-41a2-9013-7e834cefa489
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: OpenMap
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 713a3e8f-512f-4e76-b814-6bb80bd56989
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: OpenJournal
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: dde44542-f426-4c9c-9a92-7659adc9f69c
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: OpenTexts
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a1d76c42-563b-4410-80bc-ca1dafc87a99
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: QuickMove
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 09d1c7a6-dea9-4641-9e71-16f3162b2d06
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ToggleFlashlight
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 31e7f191-5a4a-41e0-a025-722f10df26a8
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Left
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: c3ad777b-2e56-482a-a131-01d80afa8667
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Right
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: be6c451f-2be7-4709-ae49-927e50414f75
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: ViewAvatar
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 3a0084f3-71e3-4fd1-9c77-84240fa88ffb
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Up
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6f91a76f-bb3c-4a86-a63d-d39497c82969
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Down
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a3f3ecaf-d5b0-46c1-aa73-e25b51fdfb27
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: Reload
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 391372aa-9a28-4edc-9836-7438780e77b8
+      m_Processors:
+      m_Interactions:
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name:
+      m_Id: 526b0340-0fa6-4540-9315-c1dd4613a813
+      m_Path: '<Mouse>/rightButton'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Back
+      m_Flags: 0
+    - m_Name: 2D Vector
+      m_Id: 2b3eb01b-1c15-4c07-ab01-4a6a512b1b8a
+      m_Path: 2DVector
+      m_Interactions:
+      m_Processors:
+      m_Groups:
+      m_Action: Motion
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 5240c2c6-e311-48c8-8504-e05adbebb349
+      m_Path: '<Keyboard>/w'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Keyboard and Mouse
+      m_Action: Motion
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 12b7e9ad-9e7a-45ad-8578-6b408d106831
+      m_Path: '<Keyboard>/s'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Keyboard and Mouse
+      m_Action: Motion
+      m_Flags: 8
+    - m_Name: left
+      m_Id: dbf71704-3fed-435f-92a0-a4a68a48235f
+      m_Path: '<Keyboard>/a'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Keyboard and Mouse
+      m_Action: Motion
+      m_Flags: 8
+    - m_Name: right
+      m_Id: e47eea8f-f4bd-404e-b864-8d5772500e5e
+      m_Path: '<Keyboard>/d'
+      m_Interactions:
+      m_Processors:
+      m_Groups: Keyboard and Mouse
+      m_Action: Motion
+      m_Flags: 8
+    - m_Name:
+      m_Id: 05bcb290-582b-468c-ab94-67f994e8b3d9
+      m_Path: '<Mouse>/leftButton'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: PrimaryClick
+      m_Flags: 0
+    - m_Name:
+      m_Id: a0550676-890f-41ed-9119-0ffa4ceb0237
+      m_Path: '<Mouse>/rightButton'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: SecondaryClick
+      m_Flags: 0
+    - m_Name:
+      m_Id: a759ace1-bfc9-432f-b94c-431b96d9d80f
+      m_Path: '<Keyboard>/escape'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Escape
+      m_Flags: 0
+    - m_Name:
+      m_Id: 26534871-0d75-4f4a-820f-ba616511103c
+      m_Path: '<Mouse>/middleButton'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: TertiaryClick
+      m_Flags: 0
+    - m_Name:
+      m_Id: 1d9fba39-7be2-4028-8267-5499a5ce57d7
+      m_Path: '<Keyboard>/space'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Jump
+      m_Flags: 0
+    - m_Name:
+      m_Id: be924cf2-4f5b-4127-b365-2eb1af181c15
+      m_Path: '<Keyboard>/ctrl'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Crouch
+      m_Flags: 0
+    - m_Name:
+      m_Id: e9b20156-ee34-4bf9-9bce-23a9095d56b7
+      m_Path: '<Keyboard>/shift'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Sprint
+      m_Flags: 0
+    - m_Name:
+      m_Id: 40e073b8-d66a-439a-b8c6-8a0f396139da
+      m_Path: '<Keyboard>/e'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Interact
+      m_Flags: 0
+    - m_Name:
+      m_Id: 0f453dce-5c8d-4fc5-a8bf-16c6acc4e59a
+      m_Path: '<Keyboard>/enter'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Submit
+      m_Flags: 0
+    - m_Name:
+      m_Id: 64d1a3db-b26b-453f-b265-87544edeffc6
+      m_Path: '<Keyboard>/tab'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: TogglePhone
+      m_Flags: 0
+    - m_Name:
+      m_Id: 0298ebe6-709c-40f2-9da8-1c1a7d32f595
+      m_Path: '<Keyboard>/h'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: ToggleLights
+      m_Flags: 0
+    - m_Name:
+      m_Id: 42d80500-27c5-43ad-b133-81a7123944af
+      m_Path: '<Keyboard>/q'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: RotateLeft
+      m_Flags: 0
+    - m_Name:
+      m_Id: 2c5f1119-fd0f-4f6b-9c65-192e8c8fba4e
+      m_Path: '<Keyboard>/e'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: RotateRight
+      m_Flags: 0
+    - m_Name:
+      m_Id: eeb20aa8-362f-4210-b45f-ea3f4527fe24
+      m_Path: '<Keyboard>/capsLock'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: ManagementMode
+      m_Flags: 0
+    - m_Name:
+      m_Id: 99a634a8-16b9-49da-8bb2-086b0e1dd599
+      m_Path: '<Keyboard>/space'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Handbrake
+      m_Flags: 0
+    - m_Name:
+      m_Id: 532ecbb9-7ec3-4eb2-803c-54b0c18e5c74
+      m_Path: '<Keyboard>/m'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: OpenMap
+      m_Flags: 0
+    - m_Name:
+      m_Id: 5e813c02-53d9-498e-ae1c-5e623f476866
+      m_Path: '<Keyboard>/j'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: OpenJournal
+      m_Flags: 0
+    - m_Name:
+      m_Id: a87d3d52-0817-433b-a7f5-9ea9ff328683
+      m_Path: '<Keyboard>/t'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: OpenTexts
+      m_Flags: 0
+    - m_Name:
+      m_Id: cac2f999-39bd-4cf2-8dc9-b878804ef14a
+      m_Path: '<Keyboard>/leftShift'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: QuickMove
+      m_Flags: 0
+    - m_Name:
+      m_Id: 5efdec17-adaf-4b20-a4d4-878bac6d2b2a
+      m_Path: '<Keyboard>/f'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: ToggleFlashlight
+      m_Flags: 0
+    - m_Name:
+      m_Id: b2aa00db-4b70-418d-8396-ec5eb7dc8acf
+      m_Path: '<Keyboard>/a'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Left
+      m_Flags: 0
+    - m_Name:
+      m_Id: 10940054-1de8-40ff-a58c-7eb8c92ea0c6
+      m_Path: '<Keyboard>/d'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Right
+      m_Flags: 0
+    - m_Name:
+      m_Id: 489f87ad-dab4-4bdf-b7b2-00916dbd0d44
+      m_Path: '<Keyboard>/v'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: ViewAvatar
+      m_Flags: 0
+    - m_Name:
+      m_Id: 53204926-78dc-4c6a-b694-b39a053e8591
+      m_Path: '<Keyboard>/w'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Up
+      m_Flags: 0
+    - m_Name:
+      m_Id: cdf42ebf-8022-4cb9-942b-05fb2b07ba95
+      m_Path: '<Keyboard>/s'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Down
+      m_Flags: 0
+    - m_Name:
+      m_Id: 00ece1dd-7bb7-4a53-a5c4-13d6a5908e16
+      m_Path: '<Keyboard>/r'
+      m_Interactions: Press(behavior=2)
+      m_Processors:
+      m_Groups:
+      m_Action: Reload
+      m_Flags: 0
+  m_ControlSchemes:
+  - m_Name: Keyboard and Mouse
+    m_BindingGroup: Keyboard and Mouse
+    m_DeviceRequirements:
+    - m_ControlPath: '<Keyboard>'
+      m_Flags: 0
+    - m_ControlPath: '<Mouse>'
+      m_Flags: 0
